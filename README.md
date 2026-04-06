@@ -365,7 +365,12 @@ ln -sf "$(pwd)/feng-baobao" "$HOME/.claude/skills/feng-baobao"
 
 ⭐ Star 这个仓库，有新 Skill 第一时间知道。<br>
 🐛 有想蒸馏的角色/AI/现象？[提一个 Issue](https://github.com/ai798-Lab/zhenghuo-skills/issues) 告诉我们。<br>
-👀 关注 [ai798-Lab](https://github.com/ai798-Lab) 获取更多 Claude Code 相关内容。
+👀 关注下方公众号，获取更多 Claude Code 相关内容。
+
+<div align="center">
+<img src="./assets/qrcode.png" width="160"><br>
+<sub>扫码关注，有新 Skill 第一时间推送</sub>
+</div>
 
 ---
 
