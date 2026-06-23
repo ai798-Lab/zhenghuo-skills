@@ -1,0 +1,4 @@
+interface:
+  display_name: "海报线描插画"
+  short_description: "红黄细线手绘海报插画风格"
+  default_prompt: "Use $poster-line-illustrator 按海报线描插画风格，根据我的主题生成一张图像模型插画。"
