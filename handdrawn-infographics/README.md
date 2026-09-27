@@ -1,12 +1,27 @@
 # 手绘信息图表
 
-把文章、书籍、课程和报告里的内容，画成清楚、可编辑的彩色手绘信息图。先判断信息之间的关系，再选择结构，最后应用统一的视觉风格。
+把文章、书籍、课程和报告里的内容，画成清楚、可编辑的彩色手绘信息图。先看内容关系，再选择构图：归属用树，条件用分支，协作用泳道，比较按维度对齐。
 
-白底、荧光绿与紫色强调、浅彩色块、黑色手绘线稿，搭配端正的印刷文字。输出 **SVG + PNG**，分别放在两个文件夹中；SVG 文字保留为真实 `<text>`，可继续编辑。
+[查看九种结构示例](assets/examples/README.md) · [安装](#安装) · [使用](#使用) · [结构选型](references/structure-library.md)
 
-正文节点、层级、集合区域与比较表头都保留与内容相关的手绘图标；普通连接和边框使用轻微弯曲的笔触。坐标轴、数据位置和文字保持准确清晰。每种结构支持显式选择图标，窄节点会为图标预留独立空间。
+<picture>
+  <source media="(max-width: 640px)" srcset="assets/showcase/PNG/hero-mobile.png">
+  <img src="assets/showcase/PNG/hero.png" alt="手绘信息图表：真实树形示例展示彩色线稿、内容图标和清晰文字，支持 14 种内置结构与 SVG、PNG 输出">
+</picture>
 
-![九种信息结构示例](assets/examples/structure-gallery.png)
+- **线条和图标都保留手绘感。** 浅绿、浅紫、浅青与浅橙色块，搭配黑色曲线笔触；正文图标与内容含义对应。
+- **文字端正、清楚、可编辑。** SVG 保留真实文字节点，PNG 从同一份 SVG 导出，分别放入 `SVG/`、`PNG/` 文件夹。
+- **结构跟着内容走。** 支持 14 种内置结构，配套 20 类信息关系选型。坐标轴和数据位置保持准确，手绘笔触不改变信息含义。
+
+## 看效果
+
+下面是实际生成的文章版二维矩阵。图标、边框和连接使用手绘线稿，文字保留印刷字体；两个判断维度都明确标在坐标轴上。
+
+![文章版二维矩阵：实施成本与预期影响共同决定四象限，含手绘语义图标](assets/examples/PNG/matrix-article.png)
+
+[查看这张图的可编辑 SVG](assets/examples/SVG/matrix-article.svg) · [打开 PNG 原图](assets/examples/PNG/matrix-article.png)
+
+[完整示例页](assets/examples/README.md) 按“知识与组织”“判断与选择”“协作与关系”分组展示九种构图，每张都提供文章版和书籍版的 SVG／PNG。[九图总览](assets/examples/structure-gallery.png) 用于快速比较构图，单张示例适合看文字与线稿细节。
 
 ## 能画什么
 
@@ -23,11 +38,13 @@
 | 哪些内容同时满足两个条件 | venn：集合交集 |
 | 两种方案在相同维度上有什么差异 | table：同维度对照表 |
 
-共 14 种内置结构。另有 [20 类信息关系选型库](references/structure-library.md)，帮助判断何时需要并行汇合、嵌套、概念网络、鱼骨图、部件标注或数据图。复杂结构需按内容定制；内置漏斗不表示真实人数或转化率，集合圆面积不表示数量。
+共 **14 种可直接生成的结构**。另有 [20 类信息关系选型库](references/structure-library.md)，帮助判断何时需要并行汇合、嵌套、概念网络、鱼骨图、部件标注或数据图；选型库并不等于 20 个现成模板。
+
+内置判断图支持一个判断点，泳道支持顺序交接，中心辐射支持一层展开；更复杂的关系需要定制布局。漏斗仅表示定性筛选，集合圆面积不表示数量。
 
 ## 安装
 
-从 [整活 Skills 仓库](https://github.com/ai798-Lab/zhenghuo-skills) 下载代码，将整个 `handdrawn-infographics` 文件夹放入所用工具的 Skill 目录，保留 `scripts/`、`assets/`、`references/` 和 `agents/`：
+从 [整活 Skills 仓库](https://github.com/ai798-Lab/zhenghuo-skills) 的 **Code → Download ZIP** 下载代码，将整个 `handdrawn-infographics` 文件夹放入所用工具的 Skill 目录，保留 `scripts/`、`assets/`、`references/` 和 `agents/`：
 
 | 工具 | 本仓库采用的安装位置 |
 | --- | --- |
@@ -50,13 +67,24 @@
 
 书籍默认按 144mm 图宽安排字号；文章默认按手机阅读安排更大的相对字号。长流程控制密度，树、矩阵和泳道保留自己的信息关系。长标签需要逐图检查语义断行。
 
-依赖就绪后，可以在此目录直接运行九种结构示例：
+依赖就绪后，可以在此目录运行书籍版或文章版示例：
 
 ```sh
 python3 scripts/build.py assets/examples/structures.json --out output/structures
+python3 scripts/build.py assets/examples/articles.json --out output/articles
 ```
 
-产物位于 `output/structures/SVG/` 和 `output/structures/PNG/`。默认拒绝覆盖同名文件；输入规范、字体参数和重新导出方式见 [生成器说明](references/renderer.md) 与 [结构输入](references/structure-inputs.md)。
+每个输出目录都包含 `SVG/` 和 `PNG/`。默认拒绝覆盖同名文件；输入规范、字体参数和重新导出方式见 [生成器说明](references/renderer.md) 与 [结构输入](references/structure-inputs.md)。
+
+**修改文字：** 优先修改 JSON 内容再生成，生成器会重新测量文字和安排空间。也可以在支持 SVG 的编辑器中修改文字；改长文后需要重新检查换行和遮挡，再从修改后的 SVG 导出 PNG。编辑 SVG 的机器需要安装相应字体；使用 PNG 无需安装字体。
+
+绘图与字体检查由本地脚本完成，不需要图片生成 API Key。示例使用原创演示文案。使用 AI 工具整理内容时，正文如何传给模型仍取决于所用工具的设置。
+
+## 本次更新
+
+2026-09-27：恢复新增九种结构中的正文手绘图标与曲线笔触，保留文字可编辑和旧布局兼容性；更新 GitHub 主图、独立窄屏主图、九图总览和分组示例页。
+
+维护布局时运行 `python3 scripts/test_style.py`，检查正文图标、显式图标选择、手绘连接和文章版集合图的字号，同时实际查看成图。桌面端与窄屏主图分别排版，九种结构同时提供可查看的文章版与书籍版示例。
 
 ## 文件与参考
 
@@ -64,12 +92,11 @@ python3 scripts/build.py assets/examples/structures.json --out output/structures
 - [风格与阅读规范](references/style-guide.md)：颜色、字体、字号和阅读尺度。
 - [结构选型库](references/structure-library.md)：根据读者问题选择结构。
 - [研究来源](references/research-sources.md)：Visme、NN/g、Lucidchart、ASQ、FT 等方法资料。
-- `assets/examples/`：风格样图、结构总览和可运行输入。
+- [完整示例](assets/examples/README.md)：九种构图、18 套 SVG／PNG 和可运行输入。
+- `assets/showcase/`：GitHub 主图的 SVG 母版与 PNG。
 - `scripts/`：SVG 排版、文字检查与 PNG 导出。
 
 生成器已在 macOS 上完成新结构、手机宽度预览和旧版兼容检查。跨机器使用仍需满足字体与依赖条件；程序检查不能代替实际查看图片。
-
-维护布局代码时运行 `python3 scripts/test_style.py`，检查正文图标、图标输入、手绘连接以及手机集合图的阅读字号；同时对照原始风格样图进行视觉验收。
 
 ## 许可
 

@@ -1,0 +1,450 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="2505.7" viewBox="0 0 960 2505.7" role="img" aria-label="九种信息结构：根据内容关系选择构图" data-text-editable="true" font-kerning="none" font-variant-ligatures="none">
+  <title>九种信息结构：根据内容关系选择构图</title>
+  <desc>彩色手绘信息图。文字为可编辑 SVG text。来源：assets/examples/structures.json 的真实生成结果。</desc>
+  <!--Icon geometry: sketchyicons, derived from Lucide/Feather. See accompanying NOTICE-sketchyicons.txt.-->
+  <rect x="0" y="0" width="960" height="2505.7" fill="#FFFFFF" />
+  <text id="text-001" x="36" y="69" font-family="HarmonyOS Sans SC" font-size="42" font-weight="700" fill="#1B1C18" text-anchor="start">同一套手绘风格，九种信息结构</text>
+  <text id="text-002" x="36" y="124" font-family="HarmonyOS Sans SC" font-size="29" font-weight="400" fill="#1B1C18" text-anchor="start">先看关系，再选构图；单张大图见示例目录。</text>
+  <path d="M36 157 Q480 161 924 157" fill="none" stroke="#1B1C18" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+  <svg width="428" height="370.0416666666667" viewBox="0 0 960 830" role="img" aria-label="知识结构：谁属于谁" data-text-editable="true" font-kerning="none" font-variant-ligatures="none" x="36" y="197">
+    <title>知识结构：谁属于谁</title>
+    <desc>彩色手绘信息图。文字为可编辑 SVG text。来源：本 Skill 的原创示例文案，仅演示信息关系。</desc>
+    <rect x="0" y="0" width="960" height="830.0" fill="#FFFFFF" />
+    <path d="M32,35.0 Q235.0,28.4 438.0,35.44 L440.0,76.0 Q235.0,72.0 32,78.0 Z" fill="#D5F548" stroke="none" stroke-width="0" stroke-linecap="round" stroke-linejoin="round" />
+    <text id="01-tree-text-001" x="32" y="68.0" font-family="HarmonyOS Sans SC" font-size="44" font-weight="700" fill="#1B1C18" text-anchor="start">知识结构：谁属于谁</text>
+    <path d="M824,79 C820,45.6 852.05,30 878,33 C918.35,31 929,64.5 926,80 C926,118.5 885.2,126 872,123 C834.2,124 826,93.75 824,79 Z" fill="#E6D4FF" stroke="none" stroke-width="0" stroke-linecap="round" stroke-linejoin="round" />
+    <g transform="translate(842 45) scale(2.75)" fill="none" stroke="#1B1C18" color="#1B1C18" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M15.62 4.2C15.7 4.35 16.27 4.49 16.53 4.6C16.86 4.2 16.98 4.37 17 3.91C17.8 3.22 18.38 1.53 19.94 1.45C20.73 2.01 21.91 2.92 22.12 4.24C21.79 5.44 20.73 6.67 20.18 6.79C19.64 7.2 19.34 7.64 19.49 7.69C19.4 7.84 19.41 8.32 19.44 8.65Q20.63 9.27 21.37 10.41C21.63 10.83 21.7 11.23 22.01 12.18C21.98 12.51 22.32 12.94 21.56 14.02Q20.89 14.98 19.54 15.22C19.25 15.73 18.89 15.89 18.4 15.57C18.46 15.56 18.16 15.19 18.07 14.85C17.49 14.15 16.07 12.52 14.89 12.74C13.81 12.68 13.53 14.36 12.45 15.54C13.14 16.38 14.1 17.69 14.92 18.07C15.23 18.08 15.53 17.93 15.47 18.62C15.75 18.98 15.8 19.25 15.44 19.45Q14.24 20.14 13.96 21.45C13.52 21.27 12.53 21.94 11.86 21.9C10.99 22.1 10.72 21.51 10.19 20.92Q9.81 20.09 8.54 19.84C8.4 19.5 7.92 19.52 7.45 19.25C7.48 19.49 7.05 19.61 6.83 20.14C6.12 21.2 5.83 22.41 4.74 22.2C2.63 21.74 2.61 20.44 2.27 20.27C2.11 18.59 2.7 17.36 3.9 17.21C4.31 16.83 4.49 16.41 4.72 16.22C4.78 15.81 4.9 15.52 4.2 15.21Q3.37 14.73 3.03 13.86C2.48 13.15 2.1 13.17 1.94 12.26C2.42 11.44 2.71 11.23 2.86 9.99Q3.21 9.11 4.53 8.69C4.38 8.1 4.75 8.15 5.49 8.43C5.86 8.48 6.11 8.98 6.14 9.08C6.7 9.54 7.47 11.06 9.11 11.35C9.87 10.72 10.89 10.03 10.93 9.06C11.35 6.99 10.78 6.24 9.21 6.26C8.65 5.91 8.2 5.79 8.44 5.21C8.34 5.23 8.44 4.55 8.62 4.6Q9.73 3.83 9.96 2.43C10.49 2.18 11.46 1.66 12.24 1.56C12.74 1.92 13.07 2.18 13.45 2.71Q14.16 3.94 15.48 4.5" />
+    </g>
+    <text id="01-tree-text-002" x="32" y="112.0" font-family="HarmonyOS Sans SC" font-size="26" font-weight="400" fill="#32352E" text-anchor="start">父子连线表示归属关系。</text>
+    <path d="M480,307 Q478.47,324 480,341 Q368,346.5 256,341 Q254.47,358 256,375" fill="none" stroke="#1B1C18" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round" data-line-style="handdrawn" />
+    <path d="M480,307 Q478.47,324 480,341 Q592,335.5 704,341 Q702.47,358 704,375" fill="none" stroke="#1B1C18" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round" data-line-style="handdrawn" />
+    <path d="M256,573 Q254.47,590 256,607 Q200,612.04 144,607 Q142.47,624 144,641" fill="none" stroke="#1B1C18" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round" data-line-style="handdrawn" />
+    <path d="M256,573 Q254.47,590 256,607 Q312,601.96 368,607 Q366.47,624 368,641" fill="none" stroke="#1B1C18" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round" data-line-style="handdrawn" />
+    <path d="M704,573 Q702.47,590 704,607 Q648,612.04 592,607 Q590.47,624 592,641" fill="none" stroke="#1B1C18" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round" data-line-style="handdrawn" />
+    <path d="M704,573 Q702.47,590 704,607 Q760,601.96 816,607 Q814.47,624 816,641" fill="none" stroke="#1B1C18" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round" data-line-style="handdrawn" />
+    <path d="M390.5,161.0 C435.34000000000003,158.0 520.6,163.0 569.5,160.0 Q582.5,161.0 581.5,174.0 C579.5,214.34 583.5,264.39 581.5,291.0 Q580.5,304.0 567.5,303.0 C520.6,305.0 439.4,301.0 390.5,303.0 Q377.5,303.0 378.5,291.0 C380.5,257.24 376.5,202.9 378.5,172.0 Q378.5,160.0 390.5,161.0 Z" fill="#F0F8CF" stroke="#1B1C18" stroke-width="3.3" stroke-linecap="round" stroke-linejoin="round" />
+    <g transform="translate(457.0 182.0) scale(1.9166666666666667)" fill="none" stroke="#1B1C18" color="#1B1C18" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" data-role="content-icon" data-icon="puzzle">
+      <path d="M15.62 4.2C15.7 4.35 16.27 4.49 16.53 4.6C16.86 4.2 16.98 4.37 17 3.91C17.8 3.22 18.38 1.53 19.94 1.45C20.73 2.01 21.91 2.92 22.12 4.24C21.79 5.44 20.73 6.67 20.18 6.79C19.64 7.2 19.34 7.64 19.49 7.69C19.4 7.84 19.41 8.32 19.44 8.65Q20.63 9.27 21.37 10.41C21.63 10.83 21.7 11.23 22.01 12.18C21.98 12.51 22.32 12.94 21.56 14.02Q20.89 14.98 19.54 15.22C19.25 15.73 18.89 15.89 18.4 15.57C18.46 15.56 18.16 15.19 18.07 14.85C17.49 14.15 16.07 12.52 14.89 12.74C13.81 12.68 13.53 14.36 12.45 15.54C13.14 16.38 14.1 17.69 14.92 18.07C15.23 18.08 15.53 17.93 15.47 18.62C15.75 18.98 15.8 19.25 15.44 19.45Q14.24 20.14 13.96 21.45C13.52 21.27 12.53 21.94 11.86 21.9C10.99 22.1 10.72 21.51 10.19 20.92Q9.81 20.09 8.54 19.84C8.4 19.5 7.92 19.52 7.45 19.25C7.48 19.49 7.05 19.61 6.83 20.14C6.12 21.2 5.83 22.41 4.74 22.2C2.63 21.74 2.61 20.44 2.27 20.27C2.11 18.59 2.7 17.36 3.9 17.21C4.31 16.83 4.49 16.41 4.72 16.22C4.78 15.81 4.9 15.52 4.2 15.21Q3.37 14.73 3.03 13.86C2.48 13.15 2.1 13.17 1.94 12.26C2.42 11.44 2.71 11.23 2.86 9.99Q3.21 9.11 4.53 8.69C4.38 8.1 4.75 8.15 5.49 8.43C5.86 8.48 6.11 8.98 6.14 9.08C6.7 9.54 7.47 11.06 9.11 11.35C9.87 10.72 10.89 10.03 10.93 9.06C11.35 6.99 10.78 6.24 9.21 6.26C8.65 5.91 8.2 5.79 8.44 5.21C8.34 5.23 8.44 4.55 8.62 4.6Q9.73 3.83 9.96 2.43C10.49 2.18 11.46 1.66 12.24 1.56C12.74 1.92 13.07 2.18 13.45 2.71Q14.16 3.94 15.48 4.5" />
+    </g>
+    <text id="01-tree-text-003" x="480.0" y="272.0" font-family="HarmonyOS Sans SC" font-size="32" font-weight="700" fill="#1B1C18" text-anchor="middle">内容制作</text>
+    <path d="M166.5,380.0 C211.34,377.0 296.6,382.0 345.5,379.0 Q358.5,380.0 357.5,393.0 C355.5,451.2 359.5,517.7 357.5,557.0 Q356.5,570.0 343.5,569.0 C296.6,571.0 215.4,567.0 166.5,569.0 Q153.5,569.0 154.5,557.0 C156.5,508.20000000000005 152.5,436.0 154.5,391.0 Q154.5,379.0 166.5,380.0 Z" fill="#ECE2FC" stroke="#1B1C18" stroke-width="3.3" stroke-linecap="round" stroke-linejoin="round" />
+    <g transform="translate(233.0 401.0) scale(1.9166666666666667)" fill="none" stroke="#1B1C18" color="#1B1C18" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" data-role="content-icon" data-icon="search">
+      <path d="M20.81 20.96Q19.14 18.52 16.64 16.55" />
+      <path d="M11.09 3.06C14.52 3.79 18.88 7.56 19.25 10.5C19.57 15.64 14.86 19.29 11.27 18.78C5.63 19.52 2.29 16.61 3.08 10.4C2.5 7.23 6.96 3.02 10.94 3.59Q10.8 3.02 10.31 3.07" />
+    </g>
+    <text id="01-tree-text-004" x="256.0" y="491.0" font-family="HarmonyOS Sans SC" font-size="32" font-weight="700" fill="#1B1C18" text-anchor="middle">研究</text>
+    <text id="01-tree-text-005" x="256.0" y="538.0" font-family="HarmonyOS Sans SC" font-size="26" font-weight="400" fill="#32352E" text-anchor="middle">先理解问题</text>
+    <path d="M614.5,380.0 C659.34,377.0 744.6,382.0 793.5,379.0 Q806.5,380.0 805.5,393.0 C803.5,451.2 807.5,517.7 805.5,557.0 Q804.5,570.0 791.5,569.0 C744.6,571.0 663.4,567.0 614.5,569.0 Q601.5,569.0 602.5,557.0 C604.5,508.20000000000005 600.5,436.0 602.5,391.0 Q602.5,379.0 614.5,380.0 Z" fill="#ECE2FC" stroke="#1B1C18" stroke-width="3.3" stroke-linecap="round" stroke-linejoin="round" />
+    <g transform="translate(681.0 401.0) scale(1.9166666666666667)" fill="none" stroke="#1B1C18" color="#1B1C18" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" data-role="content-icon" data-icon="copy">
+      <path d="M9.84 7.55Q15 6.54 20.16 8.29C21.91 7.43 22.64 8.35 21.44 9.58Q20.83 15 22.08 20.39C21.3 21.61 20.64 21.24 20.48 22.34Q15 21.16 9.8 22.48C8.49 22.52 7.95 21.49 8.12 19.74Q8.16 15 7.46 10.51C8.3 9.1 8.56 8.23 9.95 8.19Q9.85 7.82 10 8.01" />
+      <path d="M3.42 16.27C2.64 16.19 1.38 15.14 1.79 13.5Q1.01 9 2.17 3.79C1.6 2.18 2.45 2.33 4.53 1.76Q9 0.75 13.78 2.03C15.03 1.46 15.9 2.58 15.72 4.3" />
+    </g>
+    <text id="01-tree-text-006" x="704.0" y="491.0" font-family="HarmonyOS Sans SC" font-size="32" font-weight="700" fill="#1B1C18" text-anchor="middle">制作</text>
+    <text id="01-tree-text-007" x="704.0" y="538.0" font-family="HarmonyOS Sans SC" font-size="26" font-weight="400" fill="#32352E" text-anchor="middle">组织表达</text>
+    <path d="M54.5,646.0 C99.34,643.0 184.6,648.0 233.5,645.0 Q246.5,646.0 245.5,659.0 C243.5,699.34 247.5,749.39 245.5,776.0 Q244.5,789.0 231.5,788.0 C184.6,790.0 103.4,786.0 54.5,788.0 Q41.5,788.0 42.5,776.0 C44.5,742.24 40.5,687.9 42.5,657.0 Q42.5,645.0 54.5,646.0 Z" fill="#DCF3EB" stroke="#1B1C18" stroke-width="3.3" stroke-linecap="round" stroke-linejoin="round" />
+    <g transform="translate(121.0 667.0) scale(1.9166666666666667)" fill="none" stroke="#1B1C18" color="#1B1C18" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" data-role="content-icon" data-icon="checklist">
+      <path d="M7 3.5 Q13 3 20.2 3.6 L19.7 21 Q12.9 20.4 5 21.3 L5.3 5.8" />
+      <path d="M2.4 8.1 L4 9.6 L7.8 5.6" />
+      <path d="M9.8 8 Q13 7.6 16.5 8.1" />
+      <path d="M8.4 13 Q13 12.6 17 13.2" />
+      <path d="M8.6 17.8 Q11.7 17.2 15.6 17.8" />
+    </g>
+    <text id="01-tree-text-008" x="144.0" y="757.0" font-family="HarmonyOS Sans SC" font-size="32" font-weight="700" fill="#1B1C18" text-anchor="middle">事实核对</text>
+    <path d="M278.5,646.0 C323.34000000000003,643.0 408.6,648.0 457.5,645.0 Q470.5,646.0 469.5,659.0 C467.5,699.34 471.5,749.39 469.5,776.0 Q468.5,789.0 455.5,788.0 C408.6,790.0 327.4,786.0 278.5,788.0 Q265.5,788.0 266.5,776.0 C268.5,742.24 264.5,687.9 266.5,657.0 Q266.5,645.0 278.5,646.0 Z" fill="#DCF3EB" stroke="#1B1C18" stroke-width="3.3" stroke-linecap="round" stroke-linejoin="round" />
+    <g transform="translate(345.0 667.0) scale(1.9166666666666667)" fill="none" stroke="#1B1C18" color="#1B1C18" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" data-role="content-icon" data-icon="puzzle">
+      <path d="M15.62 4.2C15.7 4.35 16.27 4.49 16.53 4.6C16.86 4.2 16.98 4.37 17 3.91C17.8 3.22 18.38 1.53 19.94 1.45C20.73 2.01 21.91 2.92 22.12 4.24C21.79 5.44 20.73 6.67 20.18 6.79C19.64 7.2 19.34 7.64 19.49 7.69C19.4 7.84 19.41 8.32 19.44 8.65Q20.63 9.27 21.37 10.41C21.63 10.83 21.7 11.23 22.01 12.18C21.98 12.51 22.32 12.94 21.56 14.02Q20.89 14.98 19.54 15.22C19.25 15.73 18.89 15.89 18.4 15.57C18.46 15.56 18.16 15.19 18.07 14.85C17.49 14.15 16.07 12.52 14.89 12.74C13.81 12.68 13.53 14.36 12.45 15.54C13.14 16.38 14.1 17.69 14.92 18.07C15.23 18.08 15.53 17.93 15.47 18.62C15.75 18.98 15.8 19.25 15.44 19.45Q14.24 20.14 13.96 21.45C13.52 21.27 12.53 21.94 11.86 21.9C10.99 22.1 10.72 21.51 10.19 20.92Q9.81 20.09 8.54 19.84C8.4 19.5 7.92 19.52 7.45 19.25C7.48 19.49 7.05 19.61 6.83 20.14C6.12 21.2 5.83 22.41 4.74 22.2C2.63 21.74 2.61 20.44 2.27 20.27C2.11 18.59 2.7 17.36 3.9 17.21C4.31 16.83 4.49 16.41 4.72 16.22C4.78 15.81 4.9 15.52 4.2 15.21Q3.37 14.73 3.03 13.86C2.48 13.15 2.1 13.17 1.94 12.26C2.42 11.44 2.71 11.23 2.86 9.99Q3.21 9.11 4.53 8.69C4.38 8.1 4.75 8.15 5.49 8.43C5.86 8.48 6.11 8.98 6.14 9.08C6.7 9.54 7.47 11.06 9.11 11.35C9.87 10.72 10.89 10.03 10.93 9.06C11.35 6.99 10.78 6.24 9.21 6.26C8.65 5.91 8.2 5.79 8.44 5.21C8.34 5.23 8.44 4.55 8.62 4.6Q9.73 3.83 9.96 2.43C10.49 2.18 11.46 1.66 12.24 1.56C12.74 1.92 13.07 2.18 13.45 2.71Q14.16 3.94 15.48 4.5" />
+    </g>
+    <text id="01-tree-text-009" x="368.0" y="757.0" font-family="HarmonyOS Sans SC" font-size="32" font-weight="700" fill="#1B1C18" text-anchor="middle">结构提炼</text>
+    <path d="M502.5,646.0 C547.34,643.0 632.6,648.0 681.5,645.0 Q694.5,646.0 693.5,659.0 C691.5,699.34 695.5,749.39 693.5,776.0 Q692.5,789.0 679.5,788.0 C632.6,790.0 551.4,786.0 502.5,788.0 Q489.5,788.0 490.5,776.0 C492.5,742.24 488.5,687.9 490.5,657.0 Q490.5,645.0 502.5,646.0 Z" fill="#DCF3EB" stroke="#1B1C18" stroke-width="3.3" stroke-linecap="round" stroke-linejoin="round" />
+    <g transform="translate(569.0 667.0) scale(1.9166666666666667)" fill="none" stroke="#1B1C18" color="#1B1C18" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" data-role="content-icon" data-icon="copy">
+      <path d="M9.84 7.55Q15 6.54 20.16 8.29C21.91 7.43 22.64 8.35 21.44 9.58Q20.83 15 22.08 20.39C21.3 21.61 20.64 21.24 20.48 22.34Q15 21.16 9.8 22.48C8.49 22.52 7.95 21.49 8.12 19.74Q8.16 15 7.46 10.51C8.3 9.1 8.56 8.23 9.95 8.19Q9.85 7.82 10 8.01" />
+      <path d="M3.42 16.27C2.64 16.19 1.38 15.14 1.79 13.5Q1.01 9 2.17 3.79C1.6 2.18 2.45 2.33 4.53 1.76Q9 0.75 13.78 2.03C15.03 1.46 15.9 2.58 15.72 4.3" />
+    </g>
+    <text id="01-tree-text-010" x="592.0" y="757.0" font-family="HarmonyOS Sans SC" font-size="32" font-weight="700" fill="#1B1C18" text-anchor="middle">文字撰写</text>
+    <path d="M726.5,646.0 C771.34,643.0 856.6,648.0 905.5,645.0 Q918.5,646.0 917.5,659.0 C915.5,699.34 919.5,749.39 917.5,776.0 Q916.5,789.0 903.5,788.0 C856.6,790.0 775.4,786.0 726.5,788.0 Q713.5,788.0 714.5,776.0 C716.5,742.24 712.5,687.9 714.5,657.0 Q714.5,645.0 726.5,646.0 Z" fill="#DCF3EB" stroke="#1B1C18" stroke-width="3.3" stroke-linecap="round" stroke-linejoin="round" />
+    <g transform="translate(793.0 667.0) scale(1.9166666666666667)" fill="none" stroke="#1B1C18" color="#1B1C18" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" data-role="content-icon" data-icon="chart-line">
+      <path d="M3.6 2.52Q4.07 11 2.51 19.52C2.64 19.86 3.35 20.58 4.45 20.95Q13 21.26 20.58 20.69" />
+      <path d="M18.82 8.82Q16.26 11.26 14.08 14.21Q12.23 11.77 9.83 10.02Q8.82 11.82 6.92 13" />
+    </g>
+    <text id="01-tree-text-011" x="816.0" y="757.0" font-family="HarmonyOS Sans SC" font-size="32" font-weight="700" fill="#1B1C18" text-anchor="middle">图解表达</text>
+  </svg>
+  <svg width="428" height="475.2583333333333" viewBox="0 0 960 1066" role="img" aria-label="中心主题：向外展开" data-text-editable="true" font-kerning="none" font-variant-ligatures="none" x="500" y="197">
+    <title>中心主题：向外展开</title>
+    <desc>彩色手绘信息图。文字为可编辑 SVG text。来源：本 Skill 的原创示例文案，仅演示信息关系。</desc>
+    <rect x="0" y="0" width="960" height="1066.0" fill="#FFFFFF" />
+    <path d="M32,35.0 Q235.0,28.4 438.0,35.44 L440.0,76.0 Q235.0,72.0 32,78.0 Z" fill="#D5F548" stroke="none" stroke-width="0" stroke-linecap="round" stroke-linejoin="round" />
+    <text id="02-radial-text-001" x="32" y="68.0" font-family="HarmonyOS Sans SC" font-size="44" font-weight="700" fill="#1B1C18" text-anchor="start">中心主题：向外展开</text>
+    <path d="M824,79 C820,45.6 852.05,30 878,33 C918.35,31 929,64.5 926,80 C926,118.5 885.2,126 872,123 C834.2,124 826,93.75 824,79 Z" fill="#E6D4FF" stroke="none" stroke-width="0" stroke-linecap="round" stroke-linejoin="round" />
+    <g transform="translate(842 45) scale(2.75)" fill="none" stroke="#1B1C18" color="#1B1C18" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M15.62 4.2C15.7 4.35 16.27 4.49 16.53 4.6C16.86 4.2 16.98 4.37 17 3.91C17.8 3.22 18.38 1.53 19.94 1.45C20.73 2.01 21.91 2.92 22.12 4.24C21.79 5.44 20.73 6.67 20.18 6.79C19.64 7.2 19.34 7.64 19.49 7.69C19.4 7.84 19.41 8.32 19.44 8.65Q20.63 9.27 21.37 10.41C21.63 10.83 21.7 11.23 22.01 12.18C21.98 12.51 22.32 12.94 21.56 14.02Q20.89 14.98 19.54 15.22C19.25 15.73 18.89 15.89 18.4 15.57C18.46 15.56 18.16 15.19 18.07 14.85C17.49 14.15 16.07 12.52 14.89 12.74C13.81 12.68 13.53 14.36 12.45 15.54C13.14 16.38 14.1 17.69 14.92 18.07C15.23 18.08 15.53 17.93 15.47 18.62C15.75 18.98 15.8 19.25 15.44 19.45Q14.24 20.14 13.96 21.45C13.52 21.27 12.53 21.94 11.86 21.9C10.99 22.1 10.72 21.51 10.19 20.92Q9.81 20.09 8.54 19.84C8.4 19.5 7.92 19.52 7.45 19.25C7.48 19.49 7.05 19.61 6.83 20.14C6.12 21.2 5.83 22.41 4.74 22.2C2.63 21.74 2.61 20.44 2.27 20.27C2.11 18.59 2.7 17.36 3.9 17.21C4.31 16.83 4.49 16.41 4.72 16.22C4.78 15.81 4.9 15.52 4.2 15.21Q3.37 14.73 3.03 13.86C2.48 13.15 2.1 13.17 1.94 12.26C2.42 11.44 2.71 11.23 2.86 9.99Q3.21 9.11 4.53 8.69C4.38 8.1 4.75 8.15 5.49 8.43C5.86 8.48 6.11 8.98 6.14 9.08C6.7 9.54 7.47 11.06 9.11 11.35C9.87 10.72 10.89 10.03 10.93 9.06C11.35 6.99 10.78 6.24 9.21 6.26C8.65 5.91 8.2 5.79 8.44 5.21C8.34 5.23 8.44 4.55 8.62 4.6Q9.73 3.83 9.96 2.43C10.49 2.18 11.46 1.66 12.24 1.56C12.74 1.92 13.07 2.18 13.45 2.71Q14.16 3.94 15.48 4.5" />
+    </g>
+    <text id="02-radial-text-002" x="32" y="112.0" font-family="HarmonyOS Sans SC" font-size="26" font-weight="400" fill="#32352E" text-anchor="start">各分支共同解释中心主题，没有先后顺序。</text>
+    <path d="M367,589.0 C363,506.64 429.15,472.0 483,475.0 C576.05,473.0 596,554.1 593,590.0 C593,689.7 502.6,704.0 477,701.0 C389.6,702.0 369,627.55 367,589.0 Z" fill="#E6D4FF" stroke="#1B1C18" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round" />
+    <g transform="translate(457.0 515.0) scale(1.9166666666666667)" fill="none" stroke="#1B1C18" color="#1B1C18" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" data-role="content-icon" data-icon="book-open">
+      <path d="M12 5.07Q11.69 13 11.82 21.03" />
+      <path d="M20.3 19.03C21.09 18.95 21.74 18.09 21.74 17.33Q21.88 11 22.12 4.49C22.69 3.4 20.99 2.49 20.27 3.56Q18 2.49 15.94 2.86C14.66 3.45 12.68 3.89 11.42 5.57C10.69 3.29 10.04 2.97 8.53 3.23Q6 3.15 4.12 3.11C2.88 2.9 2.61 3.55 2.32 4.82Q2.2 11 2.13 16.56C2.21 17.68 2.66 18.86 4.23 19.31Q6 18.96 7.5 19.4C9.13 19.19 10.68 20.14 12.05 21.2C12.65 20.01 14.1 19 15.57 18.68Q18 19.13 20 19.44" />
+    </g>
+    <text id="02-radial-text-003" x="480.0" y="605.0" font-family="HarmonyOS Sans SC" font-size="32" font-weight="700" fill="#1B1C18" text-anchor="middle">好内容</text>
+    <text id="02-radial-text-004" x="480.0" y="652.0" font-family="HarmonyOS Sans SC" font-size="26" font-weight="400" fill="#32352E" text-anchor="middle">围绕读者</text>
+    <path d="M480,470 Q484.869,415.9 480,361.8" fill="none" stroke="#1B1C18" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round" data-line-style="handdrawn" />
+    <path d="M368.0,169.0 C425.44,166.0 529.6,171.0 592.0,168.0 Q605.0,169.0 604.0,182.0 C602.0,240.2 606.0,306.7 604.0,346.0 Q603.0,359.0 590.0,358.0 C529.6,360.0 430.4,356.0 368.0,358.0 Q355.0,358.0 356.0,346.0 C358.0,297.20000000000005 354.0,225.0 356.0,180.0 Q356.0,168.0 368.0,169.0 Z" fill="#F0F8CF" stroke="#1B1C18" stroke-width="3.3" stroke-linecap="round" stroke-linejoin="round" />
+    <g transform="translate(457.0 190.0) scale(1.9166666666666667)" fill="none" stroke="#1B1C18" color="#1B1C18" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" data-role="content-icon" data-icon="messages-square">
+      <path d="M16.57 9.74C15.33 11.54 15.13 12.28 13.99 12.34Q10.41 11.46 7.02 12.08C6.02 12.03 5.65 12.29 5.69 12.96Q3.93 13.3 3.17 14.81C3.19 14.89 2.66 15.29 2.27 14.84C2.13 14.91 2 14.43 1.91 14.2Q1.77 9.14 2.28 3.41C1.76 2.18 2.36 2.01 3.9 1.6Q9 0.86 14.57 2.29C14.84 1.25 15.98 2.79 16 4.03Q15.57 7 16.01 9.36" />
+      <path d="M19.64 8.46C21.06 9.21 21.96 10.41 21.74 11.34Q22.29 16.14 22.2 21.13C21.86 21.51 21.69 21.62 21.65 21.78C21.13 22.05 20.9 21.72 20.67 21.79Q19.67 20.7 18.8 19.45C18.59 18.77 17.82 18.99 17.01 19.33Q13.59 19.49 9.42 18.69C9 19.04 8.3 17.64 7.91 16.76Q8.15 16.5 7.86 15.97" />
+    </g>
+    <text id="02-radial-text-005" x="480.0" y="280.0" font-family="HarmonyOS Sans SC" font-size="32" font-weight="700" fill="#1B1C18" text-anchor="middle">问题</text>
+    <text id="02-radial-text-006" x="480.0" y="327.0" font-family="HarmonyOS Sans SC" font-size="26" font-weight="400" fill="#32352E" text-anchor="middle">要解决什么</text>
+    <path d="M598,588 Q634.52,591.287 671.04,588" fill="none" stroke="#1B1C18" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round" data-line-style="handdrawn" />
+    <path d="M688.0,494.0 C745.44,491.0 849.6,496.0 912.0,493.0 Q925.0,494.0 924.0,507.0 C922.0,565.2 926.0,631.7 924.0,671.0 Q923.0,684.0 910.0,683.0 C849.6,685.0 750.4,681.0 688.0,683.0 Q675.0,683.0 676.0,671.0 C678.0,622.2 674.0,550.0 676.0,505.0 Q676.0,493.0 688.0,494.0 Z" fill="#ECE2FC" stroke="#1B1C18" stroke-width="3.3" stroke-linecap="round" stroke-linejoin="round" />
+    <g transform="translate(777.0 515.0) scale(1.9166666666666667)" fill="none" stroke="#1B1C18" color="#1B1C18" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" data-role="content-icon" data-icon="search">
+      <path d="M20.81 20.96Q19.14 18.52 16.64 16.55" />
+      <path d="M11.09 3.06C14.52 3.79 18.88 7.56 19.25 10.5C19.57 15.64 14.86 19.29 11.27 18.78C5.63 19.52 2.29 16.61 3.08 10.4C2.5 7.23 6.96 3.02 10.94 3.59Q10.8 3.02 10.31 3.07" />
+    </g>
+    <text id="02-radial-text-007" x="800.0" y="605.0" font-family="HarmonyOS Sans SC" font-size="32" font-weight="700" fill="#1B1C18" text-anchor="middle">证据</text>
+    <text id="02-radial-text-008" x="800.0" y="652.0" font-family="HarmonyOS Sans SC" font-size="26" font-weight="400" fill="#32352E" text-anchor="middle">有什么依据</text>
+    <path d="M480,706 Q475.131,760.1 480,814.2" fill="none" stroke="#1B1C18" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round" data-line-style="handdrawn" />
+    <path d="M368.0,819.0 C425.44,816.0 529.6,821.0 592.0,818.0 Q605.0,819.0 604.0,832.0 C602.0,890.2 606.0,956.7 604.0,996.0 Q603.0,1009.0 590.0,1008.0 C529.6,1010.0 430.4,1006.0 368.0,1008.0 Q355.0,1008.0 356.0,996.0 C358.0,947.2 354.0,875.0 356.0,830.0 Q356.0,818.0 368.0,819.0 Z" fill="#DCF3EB" stroke="#1B1C18" stroke-width="3.3" stroke-linecap="round" stroke-linejoin="round" />
+    <g transform="translate(457.0 840.0) scale(1.9166666666666667)" fill="none" stroke="#1B1C18" color="#1B1C18" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" data-role="content-icon" data-icon="puzzle">
+      <path d="M15.62 4.2C15.7 4.35 16.27 4.49 16.53 4.6C16.86 4.2 16.98 4.37 17 3.91C17.8 3.22 18.38 1.53 19.94 1.45C20.73 2.01 21.91 2.92 22.12 4.24C21.79 5.44 20.73 6.67 20.18 6.79C19.64 7.2 19.34 7.64 19.49 7.69C19.4 7.84 19.41 8.32 19.44 8.65Q20.63 9.27 21.37 10.41C21.63 10.83 21.7 11.23 22.01 12.18C21.98 12.51 22.32 12.94 21.56 14.02Q20.89 14.98 19.54 15.22C19.25 15.73 18.89 15.89 18.4 15.57C18.46 15.56 18.16 15.19 18.07 14.85C17.49 14.15 16.07 12.52 14.89 12.74C13.81 12.68 13.53 14.36 12.45 15.54C13.14 16.38 14.1 17.69 14.92 18.07C15.23 18.08 15.53 17.93 15.47 18.62C15.75 18.98 15.8 19.25 15.44 19.45Q14.24 20.14 13.96 21.45C13.52 21.27 12.53 21.94 11.86 21.9C10.99 22.1 10.72 21.51 10.19 20.92Q9.81 20.09 8.54 19.84C8.4 19.5 7.92 19.52 7.45 19.25C7.48 19.49 7.05 19.61 6.83 20.14C6.12 21.2 5.83 22.41 4.74 22.2C2.63 21.74 2.61 20.44 2.27 20.27C2.11 18.59 2.7 17.36 3.9 17.21C4.31 16.83 4.49 16.41 4.72 16.22C4.78 15.81 4.9 15.52 4.2 15.21Q3.37 14.73 3.03 13.86C2.48 13.15 2.1 13.17 1.94 12.26C2.42 11.44 2.71 11.23 2.86 9.99Q3.21 9.11 4.53 8.69C4.38 8.1 4.75 8.15 5.49 8.43C5.86 8.48 6.11 8.98 6.14 9.08C6.7 9.54 7.47 11.06 9.11 11.35C9.87 10.72 10.89 10.03 10.93 9.06C11.35 6.99 10.78 6.24 9.21 6.26C8.65 5.91 8.2 5.79 8.44 5.21C8.34 5.23 8.44 4.55 8.62 4.6Q9.73 3.83 9.96 2.43C10.49 2.18 11.46 1.66 12.24 1.56C12.74 1.92 13.07 2.18 13.45 2.71Q14.16 3.94 15.48 4.5" />
+    </g>
+    <text id="02-radial-text-009" x="480.0" y="930.0" font-family="HarmonyOS Sans SC" font-size="32" font-weight="700" fill="#1B1C18" text-anchor="middle">结构</text>
+    <text id="02-radial-text-010" x="480.0" y="977.0" font-family="HarmonyOS Sans SC" font-size="26" font-weight="400" fill="#32352E" text-anchor="middle">怎样讲清楚</text>
+    <path d="M362,588 Q325.48,584.713 288.96,588" fill="none" stroke="#1B1C18" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round" data-line-style="handdrawn" />
+    <path d="M48.0,494.0 C105.44000000000001,491.0 209.6,496.0 272.0,493.0 Q285.0,494.0 284.0,507.0 C282.0,565.2 286.0,631.7 284.0,671.0 Q283.0,684.0 270.0,683.0 C209.6,685.0 110.39999999999999,681.0 48.0,683.0 Q35.0,683.0 36.0,671.0 C38.0,622.2 34.0,550.0 36.0,505.0 Q36.0,493.0 48.0,494.0 Z" fill="#EEE5FC" stroke="#1B1C18" stroke-width="3.3" stroke-linecap="round" stroke-linejoin="round" />
+    <g transform="translate(137.0 515.0) scale(1.9166666666666667)" fill="none" stroke="#1B1C18" color="#1B1C18" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" data-role="content-icon" data-icon="book-open">
+      <path d="M12 5.07Q11.69 13 11.82 21.03" />
+      <path d="M20.3 19.03C21.09 18.95 21.74 18.09 21.74 17.33Q21.88 11 22.12 4.49C22.69 3.4 20.99 2.49 20.27 3.56Q18 2.49 15.94 2.86C14.66 3.45 12.68 3.89 11.42 5.57C10.69 3.29 10.04 2.97 8.53 3.23Q6 3.15 4.12 3.11C2.88 2.9 2.61 3.55 2.32 4.82Q2.2 11 2.13 16.56C2.21 17.68 2.66 18.86 4.23 19.31Q6 18.96 7.5 19.4C9.13 19.19 10.68 20.14 12.05 21.2C12.65 20.01 14.1 19 15.57 18.68Q18 19.13 20 19.44" />
+    </g>
+    <text id="02-radial-text-011" x="160.0" y="605.0" font-family="HarmonyOS Sans SC" font-size="32" font-weight="700" fill="#1B1C18" text-anchor="middle">表达</text>
+    <text id="02-radial-text-012" x="160.0" y="652.0" font-family="HarmonyOS Sans SC" font-size="26" font-weight="400" fill="#32352E" text-anchor="middle">怎样读得懂</text>
+  </svg>
+  <svg width="428" height="312.975" viewBox="0 0 960 702" role="img" aria-label="二维判断：把选择放对位置" data-text-editable="true" font-kerning="none" font-variant-ligatures="none" x="36" y="720.2583333333333">
+    <title>二维判断：把选择放对位置</title>
+    <desc>彩色手绘信息图。文字为可编辑 SVG text。来源：本 Skill 的原创示例文案，仅演示信息关系。</desc>
+    <rect x="0" y="0" width="960" height="702.0" fill="#FFFFFF" />
+    <path d="M32,35.0 Q301.0,28.4 570.0,35.44 L572.0,76.0 Q301.0,72.0 32,78.0 Z" fill="#D5F548" stroke="none" stroke-width="0" stroke-linecap="round" stroke-linejoin="round" />
+    <text id="03-matrix-text-001" x="32" y="68.0" font-family="HarmonyOS Sans SC" font-size="44" font-weight="700" fill="#1B1C18" text-anchor="start">二维判断：把选择放对位置</text>
+    <path d="M824,79 C820,45.6 852.05,30 878,33 C918.35,31 929,64.5 926,80 C926,118.5 885.2,126 872,123 C834.2,124 826,93.75 824,79 Z" fill="#E6D4FF" stroke="none" stroke-width="0" stroke-linecap="round" stroke-linejoin="round" />
+    <g transform="translate(842 45) scale(2.75)" fill="none" stroke="#1B1C18" color="#1B1C18" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M15.62 4.2C15.7 4.35 16.27 4.49 16.53 4.6C16.86 4.2 16.98 4.37 17 3.91C17.8 3.22 18.38 1.53 19.94 1.45C20.73 2.01 21.91 2.92 22.12 4.24C21.79 5.44 20.73 6.67 20.18 6.79C19.64 7.2 19.34 7.64 19.49 7.69C19.4 7.84 19.41 8.32 19.44 8.65Q20.63 9.27 21.37 10.41C21.63 10.83 21.7 11.23 22.01 12.18C21.98 12.51 22.32 12.94 21.56 14.02Q20.89 14.98 19.54 15.22C19.25 15.73 18.89 15.89 18.4 15.57C18.46 15.56 18.16 15.19 18.07 14.85C17.49 14.15 16.07 12.52 14.89 12.74C13.81 12.68 13.53 14.36 12.45 15.54C13.14 16.38 14.1 17.69 14.92 18.07C15.23 18.08 15.53 17.93 15.47 18.62C15.75 18.98 15.8 19.25 15.44 19.45Q14.24 20.14 13.96 21.45C13.52 21.27 12.53 21.94 11.86 21.9C10.99 22.1 10.72 21.51 10.19 20.92Q9.81 20.09 8.54 19.84C8.4 19.5 7.92 19.52 7.45 19.25C7.48 19.49 7.05 19.61 6.83 20.14C6.12 21.2 5.83 22.41 4.74 22.2C2.63 21.74 2.61 20.44 2.27 20.27C2.11 18.59 2.7 17.36 3.9 17.21C4.31 16.83 4.49 16.41 4.72 16.22C4.78 15.81 4.9 15.52 4.2 15.21Q3.37 14.73 3.03 13.86C2.48 13.15 2.1 13.17 1.94 12.26C2.42 11.44 2.71 11.23 2.86 9.99Q3.21 9.11 4.53 8.69C4.38 8.1 4.75 8.15 5.49 8.43C5.86 8.48 6.11 8.98 6.14 9.08C6.7 9.54 7.47 11.06 9.11 11.35C9.87 10.72 10.89 10.03 10.93 9.06C11.35 6.99 10.78 6.24 9.21 6.26C8.65 5.91 8.2 5.79 8.44 5.21C8.34 5.23 8.44 4.55 8.62 4.6Q9.73 3.83 9.96 2.43C10.49 2.18 11.46 1.66 12.24 1.56C12.74 1.92 13.07 2.18 13.45 2.71Q14.16 3.94 15.48 4.5" />
+    </g>
+    <text id="03-matrix-text-002" x="32" y="112.0" font-family="HarmonyOS Sans SC" font-size="26" font-weight="400" fill="#32352E" text-anchor="start">两条轴同时参与判断。</text>
+    <text id="03-matrix-text-003" x="138" y="185.0" font-family="HarmonyOS Sans SC" font-size="24" font-weight="700" fill="#1B1C18" text-anchor="start">预期影响</text>
+    <path d="M188,213.0 C277.92,210.0 430.79999999999995,215.0 528,212.0 Q541,213.0 540,226.0 C538,269.38 542,322.23 540,351.0 Q539,364.0 526,363.0 C430.79999999999995,365.0 285.2,361.0 188,363.0 Q175,363.0 176,351.0 C178,314.68 174,257.3 176,224.0 Q176,212.0 188,213.0 Z" fill="#F0F8CF" stroke="#1B1C18" stroke-width="3.3" stroke-linecap="round" stroke-linejoin="round" />
+    <g transform="translate(472 241.0) scale(1.9166666666666667)" fill="none" stroke="#1B1C18" color="#1B1C18" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" data-role="content-icon" data-icon="rocket">
+      <path d="M12.42 15.13Q12.13 17.5 11.98 19.55C12.29 19.65 14.93 19.49 15.82 18.45C16.94 16.68 16.28 12.92 15.92 13.34" />
+      <path d="M4.35 16.71C3.56 17.07 2.42 21.73 2.06 20.95C2.79 21.34 5.97 21.86 7.15 18.97C7.99 18.72 7.83 17.49 7.46 17.06C6.26 16.45 5.14 16.53 4.79 16.91" />
+      <path d="M8.71 11.69C8.97 10.74 9.52 9.75 11.16 8.2C13.82 3.98 17.3 1.52 21.96 1.61C21.4 5.56 22.14 9.51 15.55 12.83C14.96 14.6 13.2 14.46 11.76 15.4Q10.61 13.39 8.76 11.76" />
+      <path d="M9.02 12.43Q6.5 11.96 3.93 11.88C4.53 12.39 4.7 9.5 5.49 8.52C7.78 6.56 10.48 7.83 11.28 8.49" />
+    </g>
+    <text id="03-matrix-text-004" x="198" y="273.0" font-family="HarmonyOS Sans SC" font-size="32" font-weight="700" fill="#1B1C18" text-anchor="start">优先尝试</text>
+    <text id="03-matrix-text-005" x="198" y="325.0" font-family="HarmonyOS Sans SC" font-size="26" font-weight="400" fill="#32352E" text-anchor="start">低成本，高影响</text>
+    <path d="M572,213.0 C661.9200000000001,210.0 814.8,215.0 912,212.0 Q925,213.0 924,226.0 C922,269.38 926,322.23 924,351.0 Q923,364.0 910,363.0 C814.8,365.0 669.2,361.0 572,363.0 Q559,363.0 560,351.0 C562,314.68 558,257.3 560,224.0 Q560,212.0 572,213.0 Z" fill="#ECE2FC" stroke="#1B1C18" stroke-width="3.3" stroke-linecap="round" stroke-linejoin="round" />
+    <g transform="translate(856 241.0) scale(1.9166666666666667)" fill="none" stroke="#1B1C18" color="#1B1C18" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" data-role="content-icon" data-icon="checklist">
+      <path d="M7 3.5 Q13 3 20.2 3.6 L19.7 21 Q12.9 20.4 5 21.3 L5.3 5.8" />
+      <path d="M2.4 8.1 L4 9.6 L7.8 5.6" />
+      <path d="M9.8 8 Q13 7.6 16.5 8.1" />
+      <path d="M8.4 13 Q13 12.6 17 13.2" />
+      <path d="M8.6 17.8 Q11.7 17.2 15.6 17.8" />
+    </g>
+    <text id="03-matrix-text-006" x="582" y="273.0" font-family="HarmonyOS Sans SC" font-size="32" font-weight="700" fill="#1B1C18" text-anchor="start">重点规划</text>
+    <text id="03-matrix-text-007" x="582" y="325.0" font-family="HarmonyOS Sans SC" font-size="26" font-weight="400" fill="#32352E" text-anchor="start">高成本，高影响</text>
+    <path d="M188,384.0 C277.92,381.0 430.79999999999995,386.0 528,383.0 Q541,384.0 540,397.0 C538,440.38 542,493.23 540,522.0 Q539,535.0 526,534.0 C430.79999999999995,536.0 285.2,532.0 188,534.0 Q175,534.0 176,522.0 C178,485.68 174,428.3 176,395.0 Q176,383.0 188,384.0 Z" fill="#DCF3EB" stroke="#1B1C18" stroke-width="3.3" stroke-linecap="round" stroke-linejoin="round" />
+    <g transform="translate(472 412.0) scale(1.9166666666666667)" fill="none" stroke="#1B1C18" color="#1B1C18" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" data-role="content-icon" data-icon="chart-line">
+      <path d="M3.6 2.52Q4.07 11 2.51 19.52C2.64 19.86 3.35 20.58 4.45 20.95Q13 21.26 20.58 20.69" />
+      <path d="M18.82 8.82Q16.26 11.26 14.08 14.21Q12.23 11.77 9.83 10.02Q8.82 11.82 6.92 13" />
+    </g>
+    <text id="03-matrix-text-008" x="198" y="444.0" font-family="HarmonyOS Sans SC" font-size="32" font-weight="700" fill="#1B1C18" text-anchor="start">顺手改进</text>
+    <text id="03-matrix-text-009" x="198" y="496.0" font-family="HarmonyOS Sans SC" font-size="26" font-weight="400" fill="#32352E" text-anchor="start">低成本，低影响</text>
+    <path d="M572,384.0 C661.9200000000001,381.0 814.8,386.0 912,383.0 Q925,384.0 924,397.0 C922,440.38 926,493.23 924,522.0 Q923,535.0 910,534.0 C814.8,536.0 669.2,532.0 572,534.0 Q559,534.0 560,522.0 C562,485.68 558,428.3 560,395.0 Q560,383.0 572,384.0 Z" fill="#EEE5FC" stroke="#1B1C18" stroke-width="3.3" stroke-linecap="round" stroke-linejoin="round" />
+    <g transform="translate(856 412.0) scale(1.9166666666666667)" fill="none" stroke="#1B1C18" color="#1B1C18" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" data-role="content-icon" data-icon="search">
+      <path d="M20.81 20.96Q19.14 18.52 16.64 16.55" />
+      <path d="M11.09 3.06C14.52 3.79 18.88 7.56 19.25 10.5C19.57 15.64 14.86 19.29 11.27 18.78C5.63 19.52 2.29 16.61 3.08 10.4C2.5 7.23 6.96 3.02 10.94 3.59Q10.8 3.02 10.31 3.07" />
+    </g>
+    <text id="03-matrix-text-010" x="582" y="444.0" font-family="HarmonyOS Sans SC" font-size="32" font-weight="700" fill="#1B1C18" text-anchor="start">谨慎投入</text>
+    <text id="03-matrix-text-011" x="582" y="496.0" font-family="HarmonyOS Sans SC" font-size="26" font-weight="400" fill="#32352E" text-anchor="start">高成本，低影响</text>
+    <path d="M145,537 L145,205" fill="none" stroke="#1B1C18" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round" data-line-style="precise" />
+    <path d="M152,216 L145,205 L138,216" fill="none" stroke="#1B1C18" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round" data-line-style="precise" />
+    <text id="03-matrix-text-012" x="125" y="236.0" font-family="HarmonyOS Sans SC" font-size="24" font-weight="400" fill="#1B1C18" text-anchor="end">高</text>
+    <text id="03-matrix-text-013" x="125" y="534.0" font-family="HarmonyOS Sans SC" font-size="24" font-weight="400" fill="#1B1C18" text-anchor="end">低</text>
+    <path d="M176,559 L924,559" fill="none" stroke="#1B1C18" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round" data-line-style="precise" />
+    <path d="M913,566 L924,559 L913,552" fill="none" stroke="#1B1C18" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round" data-line-style="precise" />
+    <text id="03-matrix-text-014" x="176" y="600.0" font-family="HarmonyOS Sans SC" font-size="24" font-weight="400" fill="#1B1C18" text-anchor="start">低</text>
+    <text id="03-matrix-text-015" x="922" y="600.0" font-family="HarmonyOS Sans SC" font-size="24" font-weight="400" fill="#1B1C18" text-anchor="end">高</text>
+    <text id="03-matrix-text-016" x="550" y="644.0" font-family="HarmonyOS Sans SC" font-size="24" font-weight="700" fill="#1B1C18" text-anchor="middle">实施成本</text>
+  </svg>
+  <svg width="428" height="385.6458333333333" viewBox="0 0 960 865" role="img" aria-label="条件判断：下一步走哪条路" data-text-editable="true" font-kerning="none" font-variant-ligatures="none" x="500" y="720.2583333333333">
+    <title>条件判断：下一步走哪条路</title>
+    <desc>彩色手绘信息图。文字为可编辑 SVG text。来源：本 Skill 的原创示例文案，仅演示信息关系。</desc>
+    <rect x="0" y="0" width="960" height="865.0" fill="#FFFFFF" />
+    <path d="M32,35.0 Q301.0,28.4 570.0,35.44 L572.0,76.0 Q301.0,72.0 32,78.0 Z" fill="#D5F548" stroke="none" stroke-width="0" stroke-linecap="round" stroke-linejoin="round" />
+    <text id="04-decision-text-001" x="32" y="68.0" font-family="HarmonyOS Sans SC" font-size="44" font-weight="700" fill="#1B1C18" text-anchor="start">条件判断：下一步走哪条路</text>
+    <path d="M824,79 C820,45.6 852.05,30 878,33 C918.35,31 929,64.5 926,80 C926,118.5 885.2,126 872,123 C834.2,124 826,93.75 824,79 Z" fill="#E6D4FF" stroke="none" stroke-width="0" stroke-linecap="round" stroke-linejoin="round" />
+    <g transform="translate(842 45) scale(2.75)" fill="none" stroke="#1B1C18" color="#1B1C18" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M15.62 4.2C15.7 4.35 16.27 4.49 16.53 4.6C16.86 4.2 16.98 4.37 17 3.91C17.8 3.22 18.38 1.53 19.94 1.45C20.73 2.01 21.91 2.92 22.12 4.24C21.79 5.44 20.73 6.67 20.18 6.79C19.64 7.2 19.34 7.64 19.49 7.69C19.4 7.84 19.41 8.32 19.44 8.65Q20.63 9.27 21.37 10.41C21.63 10.83 21.7 11.23 22.01 12.18C21.98 12.51 22.32 12.94 21.56 14.02Q20.89 14.98 19.54 15.22C19.25 15.73 18.89 15.89 18.4 15.57C18.46 15.56 18.16 15.19 18.07 14.85C17.49 14.15 16.07 12.52 14.89 12.74C13.81 12.68 13.53 14.36 12.45 15.54C13.14 16.38 14.1 17.69 14.92 18.07C15.23 18.08 15.53 17.93 15.47 18.62C15.75 18.98 15.8 19.25 15.44 19.45Q14.24 20.14 13.96 21.45C13.52 21.27 12.53 21.94 11.86 21.9C10.99 22.1 10.72 21.51 10.19 20.92Q9.81 20.09 8.54 19.84C8.4 19.5 7.92 19.52 7.45 19.25C7.48 19.49 7.05 19.61 6.83 20.14C6.12 21.2 5.83 22.41 4.74 22.2C2.63 21.74 2.61 20.44 2.27 20.27C2.11 18.59 2.7 17.36 3.9 17.21C4.31 16.83 4.49 16.41 4.72 16.22C4.78 15.81 4.9 15.52 4.2 15.21Q3.37 14.73 3.03 13.86C2.48 13.15 2.1 13.17 1.94 12.26C2.42 11.44 2.71 11.23 2.86 9.99Q3.21 9.11 4.53 8.69C4.38 8.1 4.75 8.15 5.49 8.43C5.86 8.48 6.11 8.98 6.14 9.08C6.7 9.54 7.47 11.06 9.11 11.35C9.87 10.72 10.89 10.03 10.93 9.06C11.35 6.99 10.78 6.24 9.21 6.26C8.65 5.91 8.2 5.79 8.44 5.21C8.34 5.23 8.44 4.55 8.62 4.6Q9.73 3.83 9.96 2.43C10.49 2.18 11.46 1.66 12.24 1.56C12.74 1.92 13.07 2.18 13.45 2.71Q14.16 3.94 15.48 4.5" />
+    </g>
+    <text id="04-decision-text-002" x="32" y="112.0" font-family="HarmonyOS Sans SC" font-size="26" font-weight="400" fill="#32352E" text-anchor="start">每条分支都写清触发条件。</text>
+    <path d="M480,148 Q601.683,246.887 730,337 Q608.317,435.887 480,526 Q358.317,427.113 230,337 Q351.683,238.113 480,148 Z" fill="#F0F8CF" stroke="#1B1C18" stroke-width="3.3" stroke-linecap="round" stroke-linejoin="round" data-line-style="handdrawn" />
+    <g transform="translate(457.0 267.0) scale(1.9166666666666667)" fill="none" stroke="#1B1C18" color="#1B1C18" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" data-role="content-icon" data-icon="checklist">
+      <path d="M7 3.5 Q13 3 20.2 3.6 L19.7 21 Q12.9 20.4 5 21.3 L5.3 5.8" />
+      <path d="M2.4 8.1 L4 9.6 L7.8 5.6" />
+      <path d="M9.8 8 Q13 7.6 16.5 8.1" />
+      <path d="M8.4 13 Q13 12.6 17 13.2" />
+      <path d="M8.6 17.8 Q11.7 17.2 15.6 17.8" />
+    </g>
+    <text id="04-decision-text-003" x="480.0" y="357.0" font-family="HarmonyOS Sans SC" font-size="32" font-weight="700" fill="#1B1C18" text-anchor="middle">关键事实</text>
+    <text id="04-decision-text-004" x="480.0" y="398.0" font-family="HarmonyOS Sans SC" font-size="32" font-weight="700" fill="#1B1C18" text-anchor="middle">已核实？</text>
+    <path d="M480,530 Q478.65,545 480,560" fill="none" stroke="#1B1C18" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round" data-line-style="handdrawn" />
+    <path d="M480,560 Q361.5,554.5 243,560 Q248.175,617.5 243,675" fill="none" stroke="#1B1C18" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round" data-line-style="handdrawn" />
+    <path d="M236,664 Q239.005,669.815 243,675 Q246.005,669.185 250,664" fill="none" stroke="#1B1C18" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round" data-line-style="handdrawn" />
+    <text id="04-decision-text-005" x="259.0" y="604.0" font-family="HarmonyOS Sans SC" font-size="24" font-weight="700" fill="#1B1C18" text-anchor="start">是</text>
+    <path d="M44.0,687.0 C150.16000000000003,684.0 327.4,689.0 442.0,686.0 Q455.0,687.0 454.0,700.0 C452.0,738.06 456.0,786.01 454.0,811.0 Q453.0,824.0 440.0,823.0 C327.4,825.0 158.6,821.0 44.0,823.0 Q31.0,823.0 32.0,811.0 C34.0,779.16 30.0,727.1 32.0,698.0 Q32.0,686.0 44.0,687.0 Z" fill="#ECE2FC" stroke="#1B1C18" stroke-width="3.3" stroke-linecap="round" stroke-linejoin="round" />
+    <g transform="translate(386.0 708.0) scale(1.9166666666666667)" fill="none" stroke="#1B1C18" color="#1B1C18" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" data-role="content-icon" data-icon="copy">
+      <path d="M9.84 7.55Q15 6.54 20.16 8.29C21.91 7.43 22.64 8.35 21.44 9.58Q20.83 15 22.08 20.39C21.3 21.61 20.64 21.24 20.48 22.34Q15 21.16 9.8 22.48C8.49 22.52 7.95 21.49 8.12 19.74Q8.16 15 7.46 10.51C8.3 9.1 8.56 8.23 9.95 8.19Q9.85 7.82 10 8.01" />
+      <path d="M3.42 16.27C2.64 16.19 1.38 15.14 1.79 13.5Q1.01 9 2.17 3.79C1.6 2.18 2.45 2.33 4.53 1.76Q9 0.75 13.78 2.03C15.03 1.46 15.9 2.58 15.72 4.3" />
+    </g>
+    <text id="04-decision-text-006" x="211.0" y="740.0" font-family="HarmonyOS Sans SC" font-size="32" font-weight="700" fill="#1B1C18" text-anchor="middle">进入写作</text>
+    <text id="04-decision-text-007" x="243.0" y="792.0" font-family="HarmonyOS Sans SC" font-size="26" font-weight="400" fill="#32352E" text-anchor="middle">按已确认材料展开</text>
+    <path d="M480,560 Q598.5,565.5 717,560 Q722.175,617.5 717,675" fill="none" stroke="#1B1C18" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round" data-line-style="handdrawn" />
+    <path d="M710,664 Q713.005,669.815 717,675 Q720.005,669.185 724,664" fill="none" stroke="#1B1C18" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round" data-line-style="handdrawn" />
+    <text id="04-decision-text-008" x="733.0" y="604.0" font-family="HarmonyOS Sans SC" font-size="24" font-weight="700" fill="#1B1C18" text-anchor="start">否</text>
+    <path d="M518.0,687.0 C624.16,684.0 801.4,689.0 916.0,686.0 Q929.0,687.0 928.0,700.0 C926.0,738.06 930.0,786.01 928.0,811.0 Q927.0,824.0 914.0,823.0 C801.4,825.0 632.6,821.0 518.0,823.0 Q505.0,823.0 506.0,811.0 C508.0,779.16 504.0,727.1 506.0,698.0 Q506.0,686.0 518.0,687.0 Z" fill="#DCF3EB" stroke="#1B1C18" stroke-width="3.3" stroke-linecap="round" stroke-linejoin="round" />
+    <g transform="translate(860.0 708.0) scale(1.9166666666666667)" fill="none" stroke="#1B1C18" color="#1B1C18" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" data-role="content-icon" data-icon="search">
+      <path d="M20.81 20.96Q19.14 18.52 16.64 16.55" />
+      <path d="M11.09 3.06C14.52 3.79 18.88 7.56 19.25 10.5C19.57 15.64 14.86 19.29 11.27 18.78C5.63 19.52 2.29 16.61 3.08 10.4C2.5 7.23 6.96 3.02 10.94 3.59Q10.8 3.02 10.31 3.07" />
+    </g>
+    <text id="04-decision-text-009" x="685.0" y="740.0" font-family="HarmonyOS Sans SC" font-size="32" font-weight="700" fill="#1B1C18" text-anchor="middle">补充查证</text>
+    <text id="04-decision-text-010" x="717.0" y="792.0" font-family="HarmonyOS Sans SC" font-size="26" font-weight="400" fill="#32352E" text-anchor="middle">找原始来源或标明未知</text>
+  </svg>
+  <svg width="428" height="550.6041666666666" viewBox="0 0 960 1235" role="img" aria-label="协作流程：谁负责哪一步" data-text-editable="true" font-kerning="none" font-variant-ligatures="none" x="36" y="1153.9041666666667">
+    <title>协作流程：谁负责哪一步</title>
+    <desc>彩色手绘信息图。文字为可编辑 SVG text。来源：本 Skill 的原创示例文案，仅演示信息关系。</desc>
+    <rect x="0" y="0" width="960" height="1235.0" fill="#FFFFFF" />
+    <path d="M32,35.0 Q279.0,28.4 526.0,35.44 L528.0,76.0 Q279.0,72.0 32,78.0 Z" fill="#D5F548" stroke="none" stroke-width="0" stroke-linecap="round" stroke-linejoin="round" />
+    <text id="05-swimlane-text-001" x="32" y="68.0" font-family="HarmonyOS Sans SC" font-size="44" font-weight="700" fill="#1B1C18" text-anchor="start">协作流程：谁负责哪一步</text>
+    <path d="M824,79 C820,45.6 852.05,30 878,33 C918.35,31 929,64.5 926,80 C926,118.5 885.2,126 872,123 C834.2,124 826,93.75 824,79 Z" fill="#E6D4FF" stroke="none" stroke-width="0" stroke-linecap="round" stroke-linejoin="round" />
+    <g transform="translate(842 45) scale(2.75)" fill="none" stroke="#1B1C18" color="#1B1C18" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M15.62 4.2C15.7 4.35 16.27 4.49 16.53 4.6C16.86 4.2 16.98 4.37 17 3.91C17.8 3.22 18.38 1.53 19.94 1.45C20.73 2.01 21.91 2.92 22.12 4.24C21.79 5.44 20.73 6.67 20.18 6.79C19.64 7.2 19.34 7.64 19.49 7.69C19.4 7.84 19.41 8.32 19.44 8.65Q20.63 9.27 21.37 10.41C21.63 10.83 21.7 11.23 22.01 12.18C21.98 12.51 22.32 12.94 21.56 14.02Q20.89 14.98 19.54 15.22C19.25 15.73 18.89 15.89 18.4 15.57C18.46 15.56 18.16 15.19 18.07 14.85C17.49 14.15 16.07 12.52 14.89 12.74C13.81 12.68 13.53 14.36 12.45 15.54C13.14 16.38 14.1 17.69 14.92 18.07C15.23 18.08 15.53 17.93 15.47 18.62C15.75 18.98 15.8 19.25 15.44 19.45Q14.24 20.14 13.96 21.45C13.52 21.27 12.53 21.94 11.86 21.9C10.99 22.1 10.72 21.51 10.19 20.92Q9.81 20.09 8.54 19.84C8.4 19.5 7.92 19.52 7.45 19.25C7.48 19.49 7.05 19.61 6.83 20.14C6.12 21.2 5.83 22.41 4.74 22.2C2.63 21.74 2.61 20.44 2.27 20.27C2.11 18.59 2.7 17.36 3.9 17.21C4.31 16.83 4.49 16.41 4.72 16.22C4.78 15.81 4.9 15.52 4.2 15.21Q3.37 14.73 3.03 13.86C2.48 13.15 2.1 13.17 1.94 12.26C2.42 11.44 2.71 11.23 2.86 9.99Q3.21 9.11 4.53 8.69C4.38 8.1 4.75 8.15 5.49 8.43C5.86 8.48 6.11 8.98 6.14 9.08C6.7 9.54 7.47 11.06 9.11 11.35C9.87 10.72 10.89 10.03 10.93 9.06C11.35 6.99 10.78 6.24 9.21 6.26C8.65 5.91 8.2 5.79 8.44 5.21C8.34 5.23 8.44 4.55 8.62 4.6Q9.73 3.83 9.96 2.43C10.49 2.18 11.46 1.66 12.24 1.56C12.74 1.92 13.07 2.18 13.45 2.71Q14.16 3.94 15.48 4.5" />
+    </g>
+    <text id="05-swimlane-text-002" x="32" y="112.0" font-family="HarmonyOS Sans SC" font-size="26" font-weight="400" fill="#32352E" text-anchor="start">步骤顺序向下，跨列箭头表示交接。</text>
+    <path d="M32,148 Q179.833,153.5 327.667,148 Q333.167,670.5 327.667,1193 Q179.833,1187.5 32,1193 Q26.5,670.5 32,148 Z" fill="#F0F8CF" stroke="#1B1C18" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" data-line-style="handdrawn" />
+    <text id="05-swimlane-text-003" x="181.33333333333334" y="204.0" font-family="HarmonyOS Sans SC" font-size="32" font-weight="700" fill="#1B1C18" text-anchor="middle">作者</text>
+    <path d="M37,225 Q179.833,230.5 322.667,225" fill="none" stroke="#8B917E" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" data-line-style="handdrawn" />
+    <path d="M330.667,148 Q478.5,153.5 626.333,148 Q631.833,670.5 626.333,1193 Q478.5,1187.5 330.667,1193 Q325.167,670.5 330.667,148 Z" fill="#ECE2FC" stroke="#1B1C18" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" data-line-style="handdrawn" />
+    <text id="05-swimlane-text-004" x="480.0" y="204.0" font-family="HarmonyOS Sans SC" font-size="32" font-weight="700" fill="#1B1C18" text-anchor="middle">AI 助手</text>
+    <path d="M335.667,225 Q478.5,230.5 621.333,225" fill="none" stroke="#8B917E" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" data-line-style="handdrawn" />
+    <path d="M629.333,148 Q777.167,153.5 925,148 Q930.5,670.5 925,1193 Q777.167,1187.5 629.333,1193 Q623.833,670.5 629.333,148 Z" fill="#DCF3EB" stroke="#1B1C18" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" data-line-style="handdrawn" />
+    <text id="05-swimlane-text-005" x="778.6666666666667" y="204.0" font-family="HarmonyOS Sans SC" font-size="32" font-weight="700" fill="#1B1C18" text-anchor="middle">编辑</text>
+    <path d="M634.333,225 Q777.167,230.5 920,225" fill="none" stroke="#8B917E" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" data-line-style="handdrawn" />
+    <path d="M181.333,435 Q180.253,447 181.333,459 Q330.667,453.5 480,459 Q479.1,469 480,479" fill="none" stroke="#1B1C18" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round" data-line-style="handdrawn" />
+    <path d="M473,468 Q476.005,473.815 480,479 Q483.005,473.185 487,468" fill="none" stroke="#1B1C18" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round" data-line-style="handdrawn" />
+    <path d="M480,681 Q478.92,693 480,705 Q330.667,710.5 181.333,705 Q180.433,715 181.333,725" fill="none" stroke="#1B1C18" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round" data-line-style="handdrawn" />
+    <path d="M174.333,714 Q177.338,719.815 181.333,725 Q184.338,719.185 188.333,714" fill="none" stroke="#1B1C18" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round" data-line-style="handdrawn" />
+    <path d="M181.333,927 Q180.253,939 181.333,951 Q480,945.5 778.667,951 Q777.767,961 778.667,971" fill="none" stroke="#1B1C18" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round" data-line-style="handdrawn" />
+    <path d="M771.667,960 Q774.672,965.815 778.667,971 Q781.672,965.185 785.667,960" fill="none" stroke="#1B1C18" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round" data-line-style="handdrawn" />
+    <path d="M60.0,242.0 C122.66666666666669,239.0 234.66666666666666,244.0 302.6666666666667,241.0 Q315.6666666666667,242.0 314.6666666666667,255.0 C312.6666666666667,313.2 316.6666666666667,379.7 314.6666666666667,419.0 Q313.6666666666667,432.0 300.6666666666667,431.0 C234.66666666666666,433.0 128.0,429.0 60.0,431.0 Q47.0,431.0 48.0,419.0 C50.0,370.20000000000005 46.0,298.0 48.0,253.0 Q48.0,241.0 60.0,242.0 Z" fill="#FFFFFF" stroke="#1B1C18" stroke-width="3.3" stroke-linecap="round" stroke-linejoin="round" />
+    <g transform="translate(158.33333333333334 263.0) scale(1.9166666666666667)" fill="none" stroke="#1B1C18" color="#1B1C18" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" data-role="content-icon" data-icon="messages-square">
+      <path d="M16.57 9.74C15.33 11.54 15.13 12.28 13.99 12.34Q10.41 11.46 7.02 12.08C6.02 12.03 5.65 12.29 5.69 12.96Q3.93 13.3 3.17 14.81C3.19 14.89 2.66 15.29 2.27 14.84C2.13 14.91 2 14.43 1.91 14.2Q1.77 9.14 2.28 3.41C1.76 2.18 2.36 2.01 3.9 1.6Q9 0.86 14.57 2.29C14.84 1.25 15.98 2.79 16 4.03Q15.57 7 16.01 9.36" />
+      <path d="M19.64 8.46C21.06 9.21 21.96 10.41 21.74 11.34Q22.29 16.14 22.2 21.13C21.86 21.51 21.69 21.62 21.65 21.78C21.13 22.05 20.9 21.72 20.67 21.79Q19.67 20.7 18.8 19.45C18.59 18.77 17.82 18.99 17.01 19.33Q13.59 19.49 9.42 18.69C9 19.04 8.3 17.64 7.91 16.76Q8.15 16.5 7.86 15.97" />
+    </g>
+    <text id="05-swimlane-text-006" x="70.0" y="353.0" font-family="HarmonyOS Sans SC" font-size="32" font-weight="700" fill="#1B1C18" text-anchor="start">01  提出问题</text>
+    <text id="05-swimlane-text-007" x="70.0" y="400.0" font-family="HarmonyOS Sans SC" font-size="26" font-weight="400" fill="#32352E" text-anchor="start">说明读者与目标</text>
+    <path d="M358.6666666666667,488.0 C421.33333333333337,485.0 533.3333333333334,490.0 601.3333333333334,487.0 Q614.3333333333334,488.0 613.3333333333334,501.0 C611.3333333333334,559.2 615.3333333333334,625.7 613.3333333333334,665.0 Q612.3333333333334,678.0 599.3333333333334,677.0 C533.3333333333334,679.0 426.6666666666667,675.0 358.6666666666667,677.0 Q345.6666666666667,677.0 346.6666666666667,665.0 C348.6666666666667,616.2 344.6666666666667,544.0 346.6666666666667,499.0 Q346.6666666666667,487.0 358.6666666666667,488.0 Z" fill="#FFFFFF" stroke="#1B1C18" stroke-width="3.3" stroke-linecap="round" stroke-linejoin="round" />
+    <g transform="translate(457.0 509.0) scale(1.9166666666666667)" fill="none" stroke="#1B1C18" color="#1B1C18" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" data-role="content-icon" data-icon="copy">
+      <path d="M9.84 7.55Q15 6.54 20.16 8.29C21.91 7.43 22.64 8.35 21.44 9.58Q20.83 15 22.08 20.39C21.3 21.61 20.64 21.24 20.48 22.34Q15 21.16 9.8 22.48C8.49 22.52 7.95 21.49 8.12 19.74Q8.16 15 7.46 10.51C8.3 9.1 8.56 8.23 9.95 8.19Q9.85 7.82 10 8.01" />
+      <path d="M3.42 16.27C2.64 16.19 1.38 15.14 1.79 13.5Q1.01 9 2.17 3.79C1.6 2.18 2.45 2.33 4.53 1.76Q9 0.75 13.78 2.03C15.03 1.46 15.9 2.58 15.72 4.3" />
+    </g>
+    <text id="05-swimlane-text-008" x="368.6666666666667" y="599.0" font-family="HarmonyOS Sans SC" font-size="32" font-weight="700" fill="#1B1C18" text-anchor="start">02  整理草稿</text>
+    <text id="05-swimlane-text-009" x="368.6666666666667" y="646.0" font-family="HarmonyOS Sans SC" font-size="26" font-weight="400" fill="#32352E" text-anchor="start">保留来源与疑点</text>
+    <path d="M60.0,734.0 C122.66666666666669,731.0 234.66666666666666,736.0 302.6666666666667,733.0 Q315.6666666666667,734.0 314.6666666666667,747.0 C312.6666666666667,805.2 316.6666666666667,871.7 314.6666666666667,911.0 Q313.6666666666667,924.0 300.6666666666667,923.0 C234.66666666666666,925.0 128.0,921.0 60.0,923.0 Q47.0,923.0 48.0,911.0 C50.0,862.2 46.0,790.0 48.0,745.0 Q48.0,733.0 60.0,734.0 Z" fill="#FFFFFF" stroke="#1B1C18" stroke-width="3.3" stroke-linecap="round" stroke-linejoin="round" />
+    <g transform="translate(158.33333333333334 755.0) scale(1.9166666666666667)" fill="none" stroke="#1B1C18" color="#1B1C18" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" data-role="content-icon" data-icon="checklist">
+      <path d="M7 3.5 Q13 3 20.2 3.6 L19.7 21 Q12.9 20.4 5 21.3 L5.3 5.8" />
+      <path d="M2.4 8.1 L4 9.6 L7.8 5.6" />
+      <path d="M9.8 8 Q13 7.6 16.5 8.1" />
+      <path d="M8.4 13 Q13 12.6 17 13.2" />
+      <path d="M8.6 17.8 Q11.7 17.2 15.6 17.8" />
+    </g>
+    <text id="05-swimlane-text-010" x="70.0" y="845.0" font-family="HarmonyOS Sans SC" font-size="32" font-weight="700" fill="#1B1C18" text-anchor="start">03  确认判断</text>
+    <text id="05-swimlane-text-011" x="70.0" y="892.0" font-family="HarmonyOS Sans SC" font-size="26" font-weight="400" fill="#32352E" text-anchor="start">补充经验与事实</text>
+    <path d="M657.3333333333334,980.0 C720.0,977.0 832.0,982.0 900.0,979.0 Q913.0,980.0 912.0,993.0 C910.0,1051.2 914.0,1117.7 912.0,1157.0 Q911.0,1170.0 898.0,1169.0 C832.0,1171.0 725.3333333333334,1167.0 657.3333333333334,1169.0 Q644.3333333333334,1169.0 645.3333333333334,1157.0 C647.3333333333334,1108.2 643.3333333333334,1036.0 645.3333333333334,991.0 Q645.3333333333334,979.0 657.3333333333334,980.0 Z" fill="#FFFFFF" stroke="#1B1C18" stroke-width="3.3" stroke-linecap="round" stroke-linejoin="round" />
+    <g transform="translate(755.6666666666667 1001.0) scale(1.9166666666666667)" fill="none" stroke="#1B1C18" color="#1B1C18" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" data-role="content-icon" data-icon="book-open">
+      <path d="M12 5.07Q11.69 13 11.82 21.03" />
+      <path d="M20.3 19.03C21.09 18.95 21.74 18.09 21.74 17.33Q21.88 11 22.12 4.49C22.69 3.4 20.99 2.49 20.27 3.56Q18 2.49 15.94 2.86C14.66 3.45 12.68 3.89 11.42 5.57C10.69 3.29 10.04 2.97 8.53 3.23Q6 3.15 4.12 3.11C2.88 2.9 2.61 3.55 2.32 4.82Q2.2 11 2.13 16.56C2.21 17.68 2.66 18.86 4.23 19.31Q6 18.96 7.5 19.4C9.13 19.19 10.68 20.14 12.05 21.2C12.65 20.01 14.1 19 15.57 18.68Q18 19.13 20 19.44" />
+    </g>
+    <text id="05-swimlane-text-012" x="667.3333333333334" y="1091.0" font-family="HarmonyOS Sans SC" font-size="32" font-weight="700" fill="#1B1C18" text-anchor="start">04  检查成稿</text>
+    <text id="05-swimlane-text-013" x="667.3333333333334" y="1138.0" font-family="HarmonyOS Sans SC" font-size="26" font-weight="400" fill="#32352E" text-anchor="start">校对表达和引用</text>
+  </svg>
+  <svg width="428" height="283.99583333333334" viewBox="0 0 960 637" role="img" aria-label="分层结构：各层承担什么" data-text-editable="true" font-kerning="none" font-variant-ligatures="none" x="500" y="1153.9041666666667">
+    <title>分层结构：各层承担什么</title>
+    <desc>彩色手绘信息图。文字为可编辑 SVG text。来源：本 Skill 的原创示例文案，仅演示信息关系。</desc>
+    <rect x="0" y="0" width="960" height="637.0" fill="#FFFFFF" />
+    <path d="M32,35.0 Q279.0,28.4 526.0,35.44 L528.0,76.0 Q279.0,72.0 32,78.0 Z" fill="#D5F548" stroke="none" stroke-width="0" stroke-linecap="round" stroke-linejoin="round" />
+    <text id="06-layers-text-001" x="32" y="68.0" font-family="HarmonyOS Sans SC" font-size="44" font-weight="700" fill="#1B1C18" text-anchor="start">分层结构：各层承担什么</text>
+    <path d="M824,79 C820,45.6 852.05,30 878,33 C918.35,31 929,64.5 926,80 C926,118.5 885.2,126 872,123 C834.2,124 826,93.75 824,79 Z" fill="#E6D4FF" stroke="none" stroke-width="0" stroke-linecap="round" stroke-linejoin="round" />
+    <g transform="translate(842 45) scale(2.75)" fill="none" stroke="#1B1C18" color="#1B1C18" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M15.62 4.2C15.7 4.35 16.27 4.49 16.53 4.6C16.86 4.2 16.98 4.37 17 3.91C17.8 3.22 18.38 1.53 19.94 1.45C20.73 2.01 21.91 2.92 22.12 4.24C21.79 5.44 20.73 6.67 20.18 6.79C19.64 7.2 19.34 7.64 19.49 7.69C19.4 7.84 19.41 8.32 19.44 8.65Q20.63 9.27 21.37 10.41C21.63 10.83 21.7 11.23 22.01 12.18C21.98 12.51 22.32 12.94 21.56 14.02Q20.89 14.98 19.54 15.22C19.25 15.73 18.89 15.89 18.4 15.57C18.46 15.56 18.16 15.19 18.07 14.85C17.49 14.15 16.07 12.52 14.89 12.74C13.81 12.68 13.53 14.36 12.45 15.54C13.14 16.38 14.1 17.69 14.92 18.07C15.23 18.08 15.53 17.93 15.47 18.62C15.75 18.98 15.8 19.25 15.44 19.45Q14.24 20.14 13.96 21.45C13.52 21.27 12.53 21.94 11.86 21.9C10.99 22.1 10.72 21.51 10.19 20.92Q9.81 20.09 8.54 19.84C8.4 19.5 7.92 19.52 7.45 19.25C7.48 19.49 7.05 19.61 6.83 20.14C6.12 21.2 5.83 22.41 4.74 22.2C2.63 21.74 2.61 20.44 2.27 20.27C2.11 18.59 2.7 17.36 3.9 17.21C4.31 16.83 4.49 16.41 4.72 16.22C4.78 15.81 4.9 15.52 4.2 15.21Q3.37 14.73 3.03 13.86C2.48 13.15 2.1 13.17 1.94 12.26C2.42 11.44 2.71 11.23 2.86 9.99Q3.21 9.11 4.53 8.69C4.38 8.1 4.75 8.15 5.49 8.43C5.86 8.48 6.11 8.98 6.14 9.08C6.7 9.54 7.47 11.06 9.11 11.35C9.87 10.72 10.89 10.03 10.93 9.06C11.35 6.99 10.78 6.24 9.21 6.26C8.65 5.91 8.2 5.79 8.44 5.21C8.34 5.23 8.44 4.55 8.62 4.6Q9.73 3.83 9.96 2.43C10.49 2.18 11.46 1.66 12.24 1.56C12.74 1.92 13.07 2.18 13.45 2.71Q14.16 3.94 15.48 4.5" />
+    </g>
+    <text id="06-layers-text-002" x="32" y="112.0" font-family="HarmonyOS Sans SC" font-size="26" font-weight="400" fill="#32352E" text-anchor="start">层的位置表示结构层级，不是执行顺序。</text>
+    <path d="M48,158 Q480,163.5 912,158 Q917.5,227.5 912,297 Q480,291.5 48,297 Q42.5,227.5 48,158 Z" fill="#F0F8CF" stroke="#1B1C18" stroke-width="3.3" stroke-linecap="round" stroke-linejoin="round" data-line-style="handdrawn" />
+    <path d="M322,176 Q317.365,227.5 322,279" fill="none" stroke="#929884" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" data-line-style="handdrawn" />
+    <g transform="translate(162.0 178.0) scale(1.9166666666666667)" fill="none" stroke="#1B1C18" color="#1B1C18" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" data-role="content-icon" data-icon="book-open">
+      <path d="M12 5.07Q11.69 13 11.82 21.03" />
+      <path d="M20.3 19.03C21.09 18.95 21.74 18.09 21.74 17.33Q21.88 11 22.12 4.49C22.69 3.4 20.99 2.49 20.27 3.56Q18 2.49 15.94 2.86C14.66 3.45 12.68 3.89 11.42 5.57C10.69 3.29 10.04 2.97 8.53 3.23Q6 3.15 4.12 3.11C2.88 2.9 2.61 3.55 2.32 4.82Q2.2 11 2.13 16.56C2.21 17.68 2.66 18.86 4.23 19.31Q6 18.96 7.5 19.4C9.13 19.19 10.68 20.14 12.05 21.2C12.65 20.01 14.1 19 15.57 18.68Q18 19.13 20 19.44" />
+    </g>
+    <text id="06-layers-text-003" x="185.0" y="268.0" font-family="HarmonyOS Sans SC" font-size="32" font-weight="700" fill="#1B1C18" text-anchor="middle">应用层</text>
+    <text id="06-layers-text-004" x="342" y="236.0" font-family="HarmonyOS Sans SC" font-size="26" font-weight="400" fill="#32352E" text-anchor="start">文章、课程与研究报告</text>
+    <path d="M48,307 Q480,312.5 912,307 Q917.5,376.5 912,446 Q480,440.5 48,446 Q42.5,376.5 48,307 Z" fill="#ECE2FC" stroke="#1B1C18" stroke-width="3.3" stroke-linecap="round" stroke-linejoin="round" data-line-style="handdrawn" />
+    <path d="M322,325 Q317.365,376.5 322,428" fill="none" stroke="#929884" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" data-line-style="handdrawn" />
+    <g transform="translate(162.0 327.0) scale(1.9166666666666667)" fill="none" stroke="#1B1C18" color="#1B1C18" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" data-role="content-icon" data-icon="puzzle">
+      <path d="M15.62 4.2C15.7 4.35 16.27 4.49 16.53 4.6C16.86 4.2 16.98 4.37 17 3.91C17.8 3.22 18.38 1.53 19.94 1.45C20.73 2.01 21.91 2.92 22.12 4.24C21.79 5.44 20.73 6.67 20.18 6.79C19.64 7.2 19.34 7.64 19.49 7.69C19.4 7.84 19.41 8.32 19.44 8.65Q20.63 9.27 21.37 10.41C21.63 10.83 21.7 11.23 22.01 12.18C21.98 12.51 22.32 12.94 21.56 14.02Q20.89 14.98 19.54 15.22C19.25 15.73 18.89 15.89 18.4 15.57C18.46 15.56 18.16 15.19 18.07 14.85C17.49 14.15 16.07 12.52 14.89 12.74C13.81 12.68 13.53 14.36 12.45 15.54C13.14 16.38 14.1 17.69 14.92 18.07C15.23 18.08 15.53 17.93 15.47 18.62C15.75 18.98 15.8 19.25 15.44 19.45Q14.24 20.14 13.96 21.45C13.52 21.27 12.53 21.94 11.86 21.9C10.99 22.1 10.72 21.51 10.19 20.92Q9.81 20.09 8.54 19.84C8.4 19.5 7.92 19.52 7.45 19.25C7.48 19.49 7.05 19.61 6.83 20.14C6.12 21.2 5.83 22.41 4.74 22.2C2.63 21.74 2.61 20.44 2.27 20.27C2.11 18.59 2.7 17.36 3.9 17.21C4.31 16.83 4.49 16.41 4.72 16.22C4.78 15.81 4.9 15.52 4.2 15.21Q3.37 14.73 3.03 13.86C2.48 13.15 2.1 13.17 1.94 12.26C2.42 11.44 2.71 11.23 2.86 9.99Q3.21 9.11 4.53 8.69C4.38 8.1 4.75 8.15 5.49 8.43C5.86 8.48 6.11 8.98 6.14 9.08C6.7 9.54 7.47 11.06 9.11 11.35C9.87 10.72 10.89 10.03 10.93 9.06C11.35 6.99 10.78 6.24 9.21 6.26C8.65 5.91 8.2 5.79 8.44 5.21C8.34 5.23 8.44 4.55 8.62 4.6Q9.73 3.83 9.96 2.43C10.49 2.18 11.46 1.66 12.24 1.56C12.74 1.92 13.07 2.18 13.45 2.71Q14.16 3.94 15.48 4.5" />
+    </g>
+    <text id="06-layers-text-005" x="185.0" y="417.0" font-family="HarmonyOS Sans SC" font-size="32" font-weight="700" fill="#1B1C18" text-anchor="middle">方法层</text>
+    <text id="06-layers-text-006" x="342" y="385.0" font-family="HarmonyOS Sans SC" font-size="26" font-weight="400" fill="#32352E" text-anchor="start">提问、查证、组织与表达</text>
+    <path d="M48,456 Q480,461.5 912,456 Q917.5,525.5 912,595 Q480,589.5 48,595 Q42.5,525.5 48,456 Z" fill="#DCF3EB" stroke="#1B1C18" stroke-width="3.3" stroke-linecap="round" stroke-linejoin="round" data-line-style="handdrawn" />
+    <path d="M322,474 Q317.365,525.5 322,577" fill="none" stroke="#929884" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" data-line-style="handdrawn" />
+    <g transform="translate(162.0 476.0) scale(1.9166666666666667)" fill="none" stroke="#1B1C18" color="#1B1C18" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" data-role="content-icon" data-icon="folder">
+      <path d="M2.8 7.4 Q2.5 4.6 4.6 4.8 L9.1 4.5 Q10.7 4.6 12 7.5 Q17 7.1 21 7.5 L20.6 20.1 Q11.9 19.6 3.1 20.3 Z" />
+      <path d="M3 9.6 Q11.9 9.1 20.8 9.5" />
+    </g>
+    <text id="06-layers-text-007" x="185.0" y="566.0" font-family="HarmonyOS Sans SC" font-size="32" font-weight="700" fill="#1B1C18" text-anchor="middle">基础层</text>
+    <text id="06-layers-text-008" x="342" y="534.0" font-family="HarmonyOS Sans SC" font-size="26" font-weight="400" fill="#32352E" text-anchor="start">资料、工具与已有经验</text>
+  </svg>
+  <svg width="428" height="382.97083333333336" viewBox="0 0 960 859" role="img" aria-label="逐层筛选：留下合适的材料" data-text-editable="true" font-kerning="none" font-variant-ligatures="none" x="36" y="1752.5083333333332">
+    <title>逐层筛选：留下合适的材料</title>
+    <desc>彩色手绘信息图。文字为可编辑 SVG text。来源：本 Skill 的原创示例文案，仅演示信息关系。</desc>
+    <rect x="0" y="0" width="960" height="859" fill="#FFFFFF" />
+    <path d="M32,35.0 Q301.0,28.4 570.0,35.44 L572.0,76.0 Q301.0,72.0 32,78.0 Z" fill="#D5F548" stroke="none" stroke-width="0" stroke-linecap="round" stroke-linejoin="round" />
+    <text id="07-funnel-text-001" x="32" y="68.0" font-family="HarmonyOS Sans SC" font-size="44" font-weight="700" fill="#1B1C18" text-anchor="start">逐层筛选：留下合适的材料</text>
+    <path d="M824,79 C820,45.6 852.05,30 878,33 C918.35,31 929,64.5 926,80 C926,118.5 885.2,126 872,123 C834.2,124 826,93.75 824,79 Z" fill="#E6D4FF" stroke="none" stroke-width="0" stroke-linecap="round" stroke-linejoin="round" />
+    <g transform="translate(842 45) scale(2.75)" fill="none" stroke="#1B1C18" color="#1B1C18" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M15.62 4.2C15.7 4.35 16.27 4.49 16.53 4.6C16.86 4.2 16.98 4.37 17 3.91C17.8 3.22 18.38 1.53 19.94 1.45C20.73 2.01 21.91 2.92 22.12 4.24C21.79 5.44 20.73 6.67 20.18 6.79C19.64 7.2 19.34 7.64 19.49 7.69C19.4 7.84 19.41 8.32 19.44 8.65Q20.63 9.27 21.37 10.41C21.63 10.83 21.7 11.23 22.01 12.18C21.98 12.51 22.32 12.94 21.56 14.02Q20.89 14.98 19.54 15.22C19.25 15.73 18.89 15.89 18.4 15.57C18.46 15.56 18.16 15.19 18.07 14.85C17.49 14.15 16.07 12.52 14.89 12.74C13.81 12.68 13.53 14.36 12.45 15.54C13.14 16.38 14.1 17.69 14.92 18.07C15.23 18.08 15.53 17.93 15.47 18.62C15.75 18.98 15.8 19.25 15.44 19.45Q14.24 20.14 13.96 21.45C13.52 21.27 12.53 21.94 11.86 21.9C10.99 22.1 10.72 21.51 10.19 20.92Q9.81 20.09 8.54 19.84C8.4 19.5 7.92 19.52 7.45 19.25C7.48 19.49 7.05 19.61 6.83 20.14C6.12 21.2 5.83 22.41 4.74 22.2C2.63 21.74 2.61 20.44 2.27 20.27C2.11 18.59 2.7 17.36 3.9 17.21C4.31 16.83 4.49 16.41 4.72 16.22C4.78 15.81 4.9 15.52 4.2 15.21Q3.37 14.73 3.03 13.86C2.48 13.15 2.1 13.17 1.94 12.26C2.42 11.44 2.71 11.23 2.86 9.99Q3.21 9.11 4.53 8.69C4.38 8.1 4.75 8.15 5.49 8.43C5.86 8.48 6.11 8.98 6.14 9.08C6.7 9.54 7.47 11.06 9.11 11.35C9.87 10.72 10.89 10.03 10.93 9.06C11.35 6.99 10.78 6.24 9.21 6.26C8.65 5.91 8.2 5.79 8.44 5.21C8.34 5.23 8.44 4.55 8.62 4.6Q9.73 3.83 9.96 2.43C10.49 2.18 11.46 1.66 12.24 1.56C12.74 1.92 13.07 2.18 13.45 2.71Q14.16 3.94 15.48 4.5" />
+    </g>
+    <path d="M45,149 Q480,154.5 915,149 Q895.852,225.21 866.25,298 Q480,292.5 93.75,298 Q64.1477,225.21 45,149 Z" fill="#F0F8CF" stroke="#1B1C18" stroke-width="3.3" stroke-linecap="round" stroke-linejoin="round" data-line-style="handdrawn" />
+    <g transform="translate(783.25 177.0) scale(1.9166666666666667)" fill="none" stroke="#1B1C18" color="#1B1C18" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" data-role="content-icon" data-icon="folder">
+      <path d="M2.8 7.4 Q2.5 4.6 4.6 4.8 L9.1 4.5 Q10.7 4.6 12 7.5 Q17 7.1 21 7.5 L20.6 20.1 Q11.9 19.6 3.1 20.3 Z" />
+      <path d="M3 9.6 Q11.9 9.1 20.8 9.5" />
+    </g>
+    <text id="07-funnel-text-002" x="448.0" y="209.0" font-family="HarmonyOS Sans SC" font-size="32" font-weight="700" fill="#1B1C18" text-anchor="middle">收集材料</text>
+    <text id="07-funnel-text-003" x="480.0" y="261.0" font-family="HarmonyOS Sans SC" font-size="26" font-weight="400" fill="#32352E" text-anchor="middle">纳入可能有帮助的线索</text>
+    <path d="M93.75,310 Q480,315.5 866.25,310 Q847.102,386.21 817.5,459 Q480,453.5 142.5,459 Q112.898,386.21 93.75,310 Z" fill="#ECE2FC" stroke="#1B1C18" stroke-width="3.3" stroke-linecap="round" stroke-linejoin="round" data-line-style="handdrawn" />
+    <g transform="translate(734.5 338.0) scale(1.9166666666666667)" fill="none" stroke="#1B1C18" color="#1B1C18" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" data-role="content-icon" data-icon="search">
+      <path d="M20.81 20.96Q19.14 18.52 16.64 16.55" />
+      <path d="M11.09 3.06C14.52 3.79 18.88 7.56 19.25 10.5C19.57 15.64 14.86 19.29 11.27 18.78C5.63 19.52 2.29 16.61 3.08 10.4C2.5 7.23 6.96 3.02 10.94 3.59Q10.8 3.02 10.31 3.07" />
+    </g>
+    <text id="07-funnel-text-004" x="448.0" y="370.0" font-family="HarmonyOS Sans SC" font-size="32" font-weight="700" fill="#1B1C18" text-anchor="middle">筛选相关性</text>
+    <text id="07-funnel-text-005" x="480.0" y="422.0" font-family="HarmonyOS Sans SC" font-size="26" font-weight="400" fill="#32352E" text-anchor="middle">留下能回答当前问题的内容</text>
+    <path d="M142.5,471 Q480,476.5 817.5,471 Q798.352,547.21 768.75,620 Q480,614.5 191.25,620 Q161.648,547.21 142.5,471 Z" fill="#DCF3EB" stroke="#1B1C18" stroke-width="3.3" stroke-linecap="round" stroke-linejoin="round" data-line-style="handdrawn" />
+    <g transform="translate(685.75 499.0) scale(1.9166666666666667)" fill="none" stroke="#1B1C18" color="#1B1C18" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" data-role="content-icon" data-icon="checklist">
+      <path d="M7 3.5 Q13 3 20.2 3.6 L19.7 21 Q12.9 20.4 5 21.3 L5.3 5.8" />
+      <path d="M2.4 8.1 L4 9.6 L7.8 5.6" />
+      <path d="M9.8 8 Q13 7.6 16.5 8.1" />
+      <path d="M8.4 13 Q13 12.6 17 13.2" />
+      <path d="M8.6 17.8 Q11.7 17.2 15.6 17.8" />
+    </g>
+    <text id="07-funnel-text-006" x="448.0" y="531.0" font-family="HarmonyOS Sans SC" font-size="32" font-weight="700" fill="#1B1C18" text-anchor="middle">核实依据</text>
+    <text id="07-funnel-text-007" x="480.0" y="583.0" font-family="HarmonyOS Sans SC" font-size="26" font-weight="400" fill="#32352E" text-anchor="middle">确认来源、条件与事实</text>
+    <path d="M191.25,632 Q480,637.5 768.75,632 Q749.602,708.21 720,781 Q480,775.5 240,781 Q210.398,708.21 191.25,632 Z" fill="#EEE5FC" stroke="#1B1C18" stroke-width="3.3" stroke-linecap="round" stroke-linejoin="round" data-line-style="handdrawn" />
+    <g transform="translate(637.0 660.0) scale(1.9166666666666667)" fill="none" stroke="#1B1C18" color="#1B1C18" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" data-role="content-icon" data-icon="book-open">
+      <path d="M12 5.07Q11.69 13 11.82 21.03" />
+      <path d="M20.3 19.03C21.09 18.95 21.74 18.09 21.74 17.33Q21.88 11 22.12 4.49C22.69 3.4 20.99 2.49 20.27 3.56Q18 2.49 15.94 2.86C14.66 3.45 12.68 3.89 11.42 5.57C10.69 3.29 10.04 2.97 8.53 3.23Q6 3.15 4.12 3.11C2.88 2.9 2.61 3.55 2.32 4.82Q2.2 11 2.13 16.56C2.21 17.68 2.66 18.86 4.23 19.31Q6 18.96 7.5 19.4C9.13 19.19 10.68 20.14 12.05 21.2C12.65 20.01 14.1 19 15.57 18.68Q18 19.13 20 19.44" />
+    </g>
+    <text id="07-funnel-text-008" x="448.0" y="692.0" font-family="HarmonyOS Sans SC" font-size="32" font-weight="700" fill="#1B1C18" text-anchor="middle">进入正文</text>
+    <text id="07-funnel-text-009" x="480.0" y="744.0" font-family="HarmonyOS Sans SC" font-size="26" font-weight="400" fill="#32352E" text-anchor="middle">保留最能支撑主张的材料</text>
+    <text id="07-funnel-text-010" x="32" y="831" font-family="HarmonyOS Sans SC" font-size="24" font-weight="400" fill="#32352E" text-anchor="start">示意：收窄表示逐层筛选，不代表数量或转化率。</text>
+  </svg>
+  <svg width="428" height="368.2583333333333" viewBox="0 0 960 826" role="img" aria-label="集合关系：找到共同满足项" data-text-editable="true" font-kerning="none" font-variant-ligatures="none" x="500" y="1752.5083333333332">
+    <title>集合关系：找到共同满足项</title>
+    <desc>彩色手绘信息图。文字为可编辑 SVG text。来源：本 Skill 的原创示例文案，仅演示信息关系。</desc>
+    <rect x="0" y="0" width="960" height="826.0" fill="#FFFFFF" />
+    <path d="M32,35.0 Q301.0,28.4 570.0,35.44 L572.0,76.0 Q301.0,72.0 32,78.0 Z" fill="#D5F548" stroke="none" stroke-width="0" stroke-linecap="round" stroke-linejoin="round" />
+    <text id="08-venn-text-001" x="32" y="68.0" font-family="HarmonyOS Sans SC" font-size="44" font-weight="700" fill="#1B1C18" text-anchor="start">集合关系：找到共同满足项</text>
+    <path d="M824,79 C820,45.6 852.05,30 878,33 C918.35,31 929,64.5 926,80 C926,118.5 885.2,126 872,123 C834.2,124 826,93.75 824,79 Z" fill="#E6D4FF" stroke="none" stroke-width="0" stroke-linecap="round" stroke-linejoin="round" />
+    <g transform="translate(842 45) scale(2.75)" fill="none" stroke="#1B1C18" color="#1B1C18" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M15.62 4.2C15.7 4.35 16.27 4.49 16.53 4.6C16.86 4.2 16.98 4.37 17 3.91C17.8 3.22 18.38 1.53 19.94 1.45C20.73 2.01 21.91 2.92 22.12 4.24C21.79 5.44 20.73 6.67 20.18 6.79C19.64 7.2 19.34 7.64 19.49 7.69C19.4 7.84 19.41 8.32 19.44 8.65Q20.63 9.27 21.37 10.41C21.63 10.83 21.7 11.23 22.01 12.18C21.98 12.51 22.32 12.94 21.56 14.02Q20.89 14.98 19.54 15.22C19.25 15.73 18.89 15.89 18.4 15.57C18.46 15.56 18.16 15.19 18.07 14.85C17.49 14.15 16.07 12.52 14.89 12.74C13.81 12.68 13.53 14.36 12.45 15.54C13.14 16.38 14.1 17.69 14.92 18.07C15.23 18.08 15.53 17.93 15.47 18.62C15.75 18.98 15.8 19.25 15.44 19.45Q14.24 20.14 13.96 21.45C13.52 21.27 12.53 21.94 11.86 21.9C10.99 22.1 10.72 21.51 10.19 20.92Q9.81 20.09 8.54 19.84C8.4 19.5 7.92 19.52 7.45 19.25C7.48 19.49 7.05 19.61 6.83 20.14C6.12 21.2 5.83 22.41 4.74 22.2C2.63 21.74 2.61 20.44 2.27 20.27C2.11 18.59 2.7 17.36 3.9 17.21C4.31 16.83 4.49 16.41 4.72 16.22C4.78 15.81 4.9 15.52 4.2 15.21Q3.37 14.73 3.03 13.86C2.48 13.15 2.1 13.17 1.94 12.26C2.42 11.44 2.71 11.23 2.86 9.99Q3.21 9.11 4.53 8.69C4.38 8.1 4.75 8.15 5.49 8.43C5.86 8.48 6.11 8.98 6.14 9.08C6.7 9.54 7.47 11.06 9.11 11.35C9.87 10.72 10.89 10.03 10.93 9.06C11.35 6.99 10.78 6.24 9.21 6.26C8.65 5.91 8.2 5.79 8.44 5.21C8.34 5.23 8.44 4.55 8.62 4.6Q9.73 3.83 9.96 2.43C10.49 2.18 11.46 1.66 12.24 1.56C12.74 1.92 13.07 2.18 13.45 2.71Q14.16 3.94 15.48 4.5" />
+    </g>
+    <text id="08-venn-text-002" x="32" y="112.0" font-family="HarmonyOS Sans SC" font-size="26" font-weight="400" fill="#32352E" text-anchor="start">相关性与可核实性是两个独立条件。</text>
+    <path d="M54,469.0 C50,282.24 205.8,207.0 333,210.0 C564.6,208.0 609,390.6 606,470.0 C606,700.2 385.2,729.0 327,726.0 C109.19999999999999,727.0 56,558.3 54,469.0 Z" fill="#F0F8CF" stroke="#1B1C18" stroke-width="3.3" stroke-linecap="round" stroke-linejoin="round" fill-opacity="0.70" />
+    <path d="M354,469.0 C350,282.24 505.8,207.0 633,210.0 C864.6,208.0 909,390.6 906,470.0 C906,700.2 685.2,729.0 627,726.0 C409.2,727.0 356,558.3 354,469.0 Z" fill="#ECE2FC" stroke="#1B1C18" stroke-width="3.3" stroke-linecap="round" stroke-linejoin="round" fill-opacity="0.70" />
+    <text id="08-venn-text-003" x="266" y="173.0" font-family="HarmonyOS Sans SC" font-size="32" font-weight="700" fill="#1B1C18" text-anchor="middle">已经核实</text>
+    <text id="08-venn-text-004" x="694" y="173.0" font-family="HarmonyOS Sans SC" font-size="32" font-weight="700" fill="#1B1C18" text-anchor="middle">与主题相关</text>
+    <g transform="translate(174.0 404.0) scale(1.9166666666666667)" fill="none" stroke="#1B1C18" color="#1B1C18" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" data-role="content-icon" data-icon="folder">
+      <path d="M2.8 7.4 Q2.5 4.6 4.6 4.8 L9.1 4.5 Q10.7 4.6 12 7.5 Q17 7.1 21 7.5 L20.6 20.1 Q11.9 19.6 3.1 20.3 Z" />
+      <path d="M3 9.6 Q11.9 9.1 20.8 9.5" />
+    </g>
+    <text id="08-venn-text-005" x="197.0" y="488.0" font-family="HarmonyOS Sans SC" font-size="26" font-weight="400" fill="#32352E" text-anchor="middle">暂不相关</text>
+    <text id="08-venn-text-006" x="197.0" y="523.0" font-family="HarmonyOS Sans SC" font-size="26" font-weight="400" fill="#32352E" text-anchor="middle">另行归档</text>
+    <g transform="translate(740.0 404.0) scale(1.9166666666666667)" fill="none" stroke="#1B1C18" color="#1B1C18" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" data-role="content-icon" data-icon="search">
+      <path d="M20.81 20.96Q19.14 18.52 16.64 16.55" />
+      <path d="M11.09 3.06C14.52 3.79 18.88 7.56 19.25 10.5C19.57 15.64 14.86 19.29 11.27 18.78C5.63 19.52 2.29 16.61 3.08 10.4C2.5 7.23 6.96 3.02 10.94 3.59Q10.8 3.02 10.31 3.07" />
+    </g>
+    <text id="08-venn-text-007" x="763.0" y="488.0" font-family="HarmonyOS Sans SC" font-size="26" font-weight="400" fill="#32352E" text-anchor="middle">尚未核实</text>
+    <text id="08-venn-text-008" x="763.0" y="523.0" font-family="HarmonyOS Sans SC" font-size="26" font-weight="400" fill="#32352E" text-anchor="middle">继续查证</text>
+    <g transform="translate(457.0 395.0) scale(1.9166666666666667)" fill="none" stroke="#1B1C18" color="#1B1C18" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" data-role="content-icon" data-icon="checklist">
+      <path d="M7 3.5 Q13 3 20.2 3.6 L19.7 21 Q12.9 20.4 5 21.3 L5.3 5.8" />
+      <path d="M2.4 8.1 L4 9.6 L7.8 5.6" />
+      <path d="M9.8 8 Q13 7.6 16.5 8.1" />
+      <path d="M8.4 13 Q13 12.6 17 13.2" />
+      <path d="M8.6 17.8 Q11.7 17.2 15.6 17.8" />
+    </g>
+    <text id="08-venn-text-009" x="480.0" y="485.0" font-family="HarmonyOS Sans SC" font-size="32" font-weight="700" fill="#1B1C18" text-anchor="middle">优先采用</text>
+    <text id="08-venn-text-010" x="480.0" y="532.0" font-family="HarmonyOS Sans SC" font-size="26" font-weight="400" fill="#32352E" text-anchor="middle">相关且已核实</text>
+    <text id="08-venn-text-011" x="32" y="798.0" font-family="HarmonyOS Sans SC" font-size="24" font-weight="400" fill="#32352E" text-anchor="start">交集表示同时满足两个条件，圆面积不代表数量。</text>
+  </svg>
+  <svg width="428" height="249.22083333333333" viewBox="0 0 960 559" role="img" aria-label="对照比较：每一行比较同一件事" data-text-editable="true" font-kerning="none" font-variant-ligatures="none" x="36" y="2183.4791666666665">
+    <title>对照比较：每一行比较同一件事</title>
+    <desc>彩色手绘信息图。文字为可编辑 SVG text。来源：本 Skill 的原创示例文案，仅演示信息关系。</desc>
+    <rect x="0" y="0" width="960" height="559" fill="#FFFFFF" />
+    <path d="M32,35.0 Q345.0,28.4 658.0,35.44 L660.0,76.0 Q345.0,72.0 32,78.0 Z" fill="#D5F548" stroke="none" stroke-width="0" stroke-linecap="round" stroke-linejoin="round" />
+    <text id="09-table-text-001" x="32" y="68.0" font-family="HarmonyOS Sans SC" font-size="44" font-weight="700" fill="#1B1C18" text-anchor="start">对照比较：每一行比较同一件事</text>
+    <path d="M824,79 C820,45.6 852.05,30 878,33 C918.35,31 929,64.5 926,80 C926,118.5 885.2,126 872,123 C834.2,124 826,93.75 824,79 Z" fill="#E6D4FF" stroke="none" stroke-width="0" stroke-linecap="round" stroke-linejoin="round" />
+    <g transform="translate(842 45) scale(2.75)" fill="none" stroke="#1B1C18" color="#1B1C18" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M15.62 4.2C15.7 4.35 16.27 4.49 16.53 4.6C16.86 4.2 16.98 4.37 17 3.91C17.8 3.22 18.38 1.53 19.94 1.45C20.73 2.01 21.91 2.92 22.12 4.24C21.79 5.44 20.73 6.67 20.18 6.79C19.64 7.2 19.34 7.64 19.49 7.69C19.4 7.84 19.41 8.32 19.44 8.65Q20.63 9.27 21.37 10.41C21.63 10.83 21.7 11.23 22.01 12.18C21.98 12.51 22.32 12.94 21.56 14.02Q20.89 14.98 19.54 15.22C19.25 15.73 18.89 15.89 18.4 15.57C18.46 15.56 18.16 15.19 18.07 14.85C17.49 14.15 16.07 12.52 14.89 12.74C13.81 12.68 13.53 14.36 12.45 15.54C13.14 16.38 14.1 17.69 14.92 18.07C15.23 18.08 15.53 17.93 15.47 18.62C15.75 18.98 15.8 19.25 15.44 19.45Q14.24 20.14 13.96 21.45C13.52 21.27 12.53 21.94 11.86 21.9C10.99 22.1 10.72 21.51 10.19 20.92Q9.81 20.09 8.54 19.84C8.4 19.5 7.92 19.52 7.45 19.25C7.48 19.49 7.05 19.61 6.83 20.14C6.12 21.2 5.83 22.41 4.74 22.2C2.63 21.74 2.61 20.44 2.27 20.27C2.11 18.59 2.7 17.36 3.9 17.21C4.31 16.83 4.49 16.41 4.72 16.22C4.78 15.81 4.9 15.52 4.2 15.21Q3.37 14.73 3.03 13.86C2.48 13.15 2.1 13.17 1.94 12.26C2.42 11.44 2.71 11.23 2.86 9.99Q3.21 9.11 4.53 8.69C4.38 8.1 4.75 8.15 5.49 8.43C5.86 8.48 6.11 8.98 6.14 9.08C6.7 9.54 7.47 11.06 9.11 11.35C9.87 10.72 10.89 10.03 10.93 9.06C11.35 6.99 10.78 6.24 9.21 6.26C8.65 5.91 8.2 5.79 8.44 5.21C8.34 5.23 8.44 4.55 8.62 4.6Q9.73 3.83 9.96 2.43C10.49 2.18 11.46 1.66 12.24 1.56C12.74 1.92 13.07 2.18 13.45 2.71Q14.16 3.94 15.48 4.5" />
+    </g>
+    <rect x="32" y="149" width="214" height="140" fill="#F0F8CF" />
+    <g transform="translate(50 167) scale(1.9166666666666667)" fill="none" stroke="#1B1C18" color="#1B1C18" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" data-role="content-icon" data-icon="chart-line">
+      <path d="M3.6 2.52Q4.07 11 2.51 19.52C2.64 19.86 3.35 20.58 4.45 20.95Q13 21.26 20.58 20.69" />
+      <path d="M18.82 8.82Q16.26 11.26 14.08 14.21Q12.23 11.77 9.83 10.02Q8.82 11.82 6.92 13" />
+    </g>
+    <text id="09-table-text-002" x="50" y="261" font-family="HarmonyOS Sans SC" font-size="32" font-weight="700" fill="#1B1C18" text-anchor="start">比较维度</text>
+    <rect x="246" y="149" width="341" height="140" fill="#ECE2FC" />
+    <g transform="translate(264 167) scale(1.9166666666666667)" fill="none" stroke="#1B1C18" color="#1B1C18" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" data-role="content-icon" data-icon="folder">
+      <path d="M2.8 7.4 Q2.5 4.6 4.6 4.8 L9.1 4.5 Q10.7 4.6 12 7.5 Q17 7.1 21 7.5 L20.6 20.1 Q11.9 19.6 3.1 20.3 Z" />
+      <path d="M3 9.6 Q11.9 9.1 20.8 9.5" />
+    </g>
+    <text id="09-table-text-003" x="264" y="261" font-family="HarmonyOS Sans SC" font-size="32" font-weight="700" fill="#1B1C18" text-anchor="start">直接罗列资料</text>
+    <rect x="587" y="149" width="341" height="140" fill="#DCF3EB" />
+    <g transform="translate(605 167) scale(1.9166666666666667)" fill="none" stroke="#1B1C18" color="#1B1C18" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" data-role="content-icon" data-icon="messages-square">
+      <path d="M16.57 9.74C15.33 11.54 15.13 12.28 13.99 12.34Q10.41 11.46 7.02 12.08C6.02 12.03 5.65 12.29 5.69 12.96Q3.93 13.3 3.17 14.81C3.19 14.89 2.66 15.29 2.27 14.84C2.13 14.91 2 14.43 1.91 14.2Q1.77 9.14 2.28 3.41C1.76 2.18 2.36 2.01 3.9 1.6Q9 0.86 14.57 2.29C14.84 1.25 15.98 2.79 16 4.03Q15.57 7 16.01 9.36" />
+      <path d="M19.64 8.46C21.06 9.21 21.96 10.41 21.74 11.34Q22.29 16.14 22.2 21.13C21.86 21.51 21.69 21.62 21.65 21.78C21.13 22.05 20.9 21.72 20.67 21.79Q19.67 20.7 18.8 19.45C18.59 18.77 17.82 18.99 17.01 19.33Q13.59 19.49 9.42 18.69C9 19.04 8.3 17.64 7.91 16.76Q8.15 16.5 7.86 15.97" />
+    </g>
+    <text id="09-table-text-004" x="605" y="261" font-family="HarmonyOS Sans SC" font-size="32" font-weight="700" fill="#1B1C18" text-anchor="start">围绕问题组织</text>
+    <path d="M32,289 Q480,294.5 928,289" fill="none" stroke="#858B77" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" data-line-style="handdrawn" />
+    <rect x="32" y="289" width="214" height="76" fill="#F6F8F0" />
+    <text id="09-table-text-005" x="50" y="337" font-family="HarmonyOS Sans SC" font-size="26" font-weight="700" fill="#1B1C18" text-anchor="start">开头</text>
+    <rect x="246" y="289" width="341" height="76" fill="#F6F8F0" />
+    <text id="09-table-text-006" x="264" y="337" font-family="HarmonyOS Sans SC" font-size="26" font-weight="400" fill="#1B1C18" text-anchor="start">从材料开始</text>
+    <rect x="587" y="289" width="341" height="76" fill="#F6F8F0" />
+    <text id="09-table-text-007" x="605" y="337" font-family="HarmonyOS Sans SC" font-size="26" font-weight="400" fill="#1B1C18" text-anchor="start">从读者问题开始</text>
+    <path d="M32,365 Q480,370.5 928,365" fill="none" stroke="#858B77" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" data-line-style="handdrawn" />
+    <rect x="32" y="365" width="214" height="76" fill="#FFFFFF" />
+    <text id="09-table-text-008" x="50" y="413" font-family="HarmonyOS Sans SC" font-size="26" font-weight="700" fill="#1B1C18" text-anchor="start">段落作用</text>
+    <rect x="246" y="365" width="341" height="76" fill="#FFFFFF" />
+    <text id="09-table-text-009" x="264" y="413" font-family="HarmonyOS Sans SC" font-size="26" font-weight="400" fill="#1B1C18" text-anchor="start">描述手头有什么</text>
+    <rect x="587" y="365" width="341" height="76" fill="#FFFFFF" />
+    <text id="09-table-text-010" x="605" y="413" font-family="HarmonyOS Sans SC" font-size="26" font-weight="400" fill="#1B1C18" text-anchor="start">回答一个明确问题</text>
+    <path d="M32,441 Q480,446.5 928,441" fill="none" stroke="#858B77" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" data-line-style="handdrawn" />
+    <rect x="32" y="441" width="214" height="76" fill="#F6F8F0" />
+    <text id="09-table-text-011" x="50" y="489" font-family="HarmonyOS Sans SC" font-size="26" font-weight="700" fill="#1B1C18" text-anchor="start">图解选择</text>
+    <rect x="246" y="441" width="341" height="76" fill="#F6F8F0" />
+    <text id="09-table-text-012" x="264" y="489" font-family="HarmonyOS Sans SC" font-size="26" font-weight="400" fill="#1B1C18" text-anchor="start">依次放进卡片</text>
+    <rect x="587" y="441" width="341" height="76" fill="#F6F8F0" />
+    <text id="09-table-text-013" x="605" y="489" font-family="HarmonyOS Sans SC" font-size="26" font-weight="400" fill="#1B1C18" text-anchor="start">按照真实关系选结构</text>
+    <path d="M32,517 Q480,522.5 928,517" fill="none" stroke="#858B77" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" data-line-style="handdrawn" />
+    <path d="M246,149 Q240.5,333 246,517" fill="none" stroke="#858B77" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" data-line-style="handdrawn" />
+    <path d="M587,149 Q581.5,333 587,517" fill="none" stroke="#858B77" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" data-line-style="handdrawn" />
+    <path d="M32,149 Q480,154.5 928,149 Q933.5,333 928,517 Q480,511.5 32,517 Q26.5,333 32,149" fill="none" stroke="#1B1C18" stroke-width="3.1" stroke-linecap="round" stroke-linejoin="round" data-line-style="handdrawn" />
+  </svg>
+  <text id="text-003" x="36" y="2476.7" font-family="HarmonyOS Sans SC" font-size="25" font-weight="400" fill="#1B1C18" text-anchor="start">总览用于选型；正文图标、可编辑文字与手绘笔触保留。</text>
+</svg>

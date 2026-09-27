@@ -41,13 +41,18 @@ GPT-3.5 引用了一篇完美格式的论文。那篇论文不存在。<br>
 
 触发词：`手绘信息图` `信息图表` `handdrawn-infographics` `可编辑 SVG`
 
-为文章、书籍、课程和报告制作彩色手绘信息图。先判断内容中的归属、条件、比较或协作关系，再选择结构，统一使用白底、浅彩色块、黑色手绘线稿与清楚的印刷文字。
+为文章、书籍、课程和报告制作彩色手绘信息图。正文图标、边框与连接保留自然的手绘笔触，搭配浅彩色块和清楚的印刷文字。归属用树，条件用分支，协作用泳道，比较按维度对齐。
+
+<picture>
+  <source media="(max-width: 640px)" srcset="./handdrawn-infographics/assets/showcase/PNG/hero-mobile.png">
+  <img src="./handdrawn-infographics/assets/showcase/PNG/hero.png" alt="手绘信息图表：多彩手绘线条与正文图标，清晰可编辑文字，14 种内置结构">
+</picture>
 
 内置 **14 种结构**：流程、卡片、对比、闭环、时间轴，以及树形、中心辐射、二维矩阵、判断分支、角色泳道、分层、筛选漏斗、集合交集和逐项对照表。配套 **20 类信息关系选型库**。
 
 **SVG 文字可编辑，PNG 可直接使用，两套文件分文件夹输出。** 本地生成需要 Python、Node.js、字体与渲染依赖，支持 Codex / Claude Code 的 Skill 目录安装。
 
-[→ 查看九种结构预览、安装与使用说明](./handdrawn-infographics/)
+[→ 查看安装与使用说明](./handdrawn-infographics/) · [查看九种结构与 SVG／PNG 示例](./handdrawn-infographics/assets/examples/README.md)
 
 &nbsp;
 

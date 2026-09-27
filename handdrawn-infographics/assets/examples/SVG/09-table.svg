@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="144mm" height="83.85mm" viewBox="0 0 960 559" role="img" aria-label="对照比较：每一行比较同一件事" data-text-editable="true" font-kerning="none" font-variant-ligatures="none">
+  <title>对照比较：每一行比较同一件事</title>
+  <desc>彩色手绘信息图。文字为可编辑 SVG text。来源：本 Skill 的原创示例文案，仅演示信息关系。</desc>
+  <!--Icon geometry: sketchyicons, derived from Lucide/Feather. See accompanying NOTICE-sketchyicons.txt.-->
+  <rect x="0" y="0" width="960" height="559" fill="#FFFFFF" />
+  <path d="M32,35.0 Q345.0,28.4 658.0,35.44 L660.0,76.0 Q345.0,72.0 32,78.0 Z" fill="#D5F548" stroke="none" stroke-width="0" stroke-linecap="round" stroke-linejoin="round" />
+  <text id="text-001" x="32" y="68.0" font-family="HarmonyOS Sans SC" font-size="44" font-weight="700" fill="#1B1C18" text-anchor="start">对照比较：每一行比较同一件事</text>
+  <path d="M824,79 C820,45.6 852.05,30 878,33 C918.35,31 929,64.5 926,80 C926,118.5 885.2,126 872,123 C834.2,124 826,93.75 824,79 Z" fill="#E6D4FF" stroke="none" stroke-width="0" stroke-linecap="round" stroke-linejoin="round" />
+  <g transform="translate(842 45) scale(2.75)" fill="none" stroke="#1B1C18" color="#1B1C18" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M15.62 4.2C15.7 4.35 16.27 4.49 16.53 4.6C16.86 4.2 16.98 4.37 17 3.91C17.8 3.22 18.38 1.53 19.94 1.45C20.73 2.01 21.91 2.92 22.12 4.24C21.79 5.44 20.73 6.67 20.18 6.79C19.64 7.2 19.34 7.64 19.49 7.69C19.4 7.84 19.41 8.32 19.44 8.65Q20.63 9.27 21.37 10.41C21.63 10.83 21.7 11.23 22.01 12.18C21.98 12.51 22.32 12.94 21.56 14.02Q20.89 14.98 19.54 15.22C19.25 15.73 18.89 15.89 18.4 15.57C18.46 15.56 18.16 15.19 18.07 14.85C17.49 14.15 16.07 12.52 14.89 12.74C13.81 12.68 13.53 14.36 12.45 15.54C13.14 16.38 14.1 17.69 14.92 18.07C15.23 18.08 15.53 17.93 15.47 18.62C15.75 18.98 15.8 19.25 15.44 19.45Q14.24 20.14 13.96 21.45C13.52 21.27 12.53 21.94 11.86 21.9C10.99 22.1 10.72 21.51 10.19 20.92Q9.81 20.09 8.54 19.84C8.4 19.5 7.92 19.52 7.45 19.25C7.48 19.49 7.05 19.61 6.83 20.14C6.12 21.2 5.83 22.41 4.74 22.2C2.63 21.74 2.61 20.44 2.27 20.27C2.11 18.59 2.7 17.36 3.9 17.21C4.31 16.83 4.49 16.41 4.72 16.22C4.78 15.81 4.9 15.52 4.2 15.21Q3.37 14.73 3.03 13.86C2.48 13.15 2.1 13.17 1.94 12.26C2.42 11.44 2.71 11.23 2.86 9.99Q3.21 9.11 4.53 8.69C4.38 8.1 4.75 8.15 5.49 8.43C5.86 8.48 6.11 8.98 6.14 9.08C6.7 9.54 7.47 11.06 9.11 11.35C9.87 10.72 10.89 10.03 10.93 9.06C11.35 6.99 10.78 6.24 9.21 6.26C8.65 5.91 8.2 5.79 8.44 5.21C8.34 5.23 8.44 4.55 8.62 4.6Q9.73 3.83 9.96 2.43C10.49 2.18 11.46 1.66 12.24 1.56C12.74 1.92 13.07 2.18 13.45 2.71Q14.16 3.94 15.48 4.5" />
+  </g>
+  <rect x="32" y="149" width="214" height="140" fill="#F0F8CF" />
+  <g transform="translate(50 167) scale(1.9166666666666667)" fill="none" stroke="#1B1C18" color="#1B1C18" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" data-role="content-icon" data-icon="chart-line">
+    <path d="M3.6 2.52Q4.07 11 2.51 19.52C2.64 19.86 3.35 20.58 4.45 20.95Q13 21.26 20.58 20.69" />
+    <path d="M18.82 8.82Q16.26 11.26 14.08 14.21Q12.23 11.77 9.83 10.02Q8.82 11.82 6.92 13" />
+  </g>
+  <text id="text-002" x="50" y="261" font-family="HarmonyOS Sans SC" font-size="32" font-weight="700" fill="#1B1C18" text-anchor="start">比较维度</text>
+  <rect x="246" y="149" width="341" height="140" fill="#ECE2FC" />
+  <g transform="translate(264 167) scale(1.9166666666666667)" fill="none" stroke="#1B1C18" color="#1B1C18" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" data-role="content-icon" data-icon="folder">
+    <path d="M2.8 7.4 Q2.5 4.6 4.6 4.8 L9.1 4.5 Q10.7 4.6 12 7.5 Q17 7.1 21 7.5 L20.6 20.1 Q11.9 19.6 3.1 20.3 Z" />
+    <path d="M3 9.6 Q11.9 9.1 20.8 9.5" />
+  </g>
+  <text id="text-003" x="264" y="261" font-family="HarmonyOS Sans SC" font-size="32" font-weight="700" fill="#1B1C18" text-anchor="start">直接罗列资料</text>
+  <rect x="587" y="149" width="341" height="140" fill="#DCF3EB" />
+  <g transform="translate(605 167) scale(1.9166666666666667)" fill="none" stroke="#1B1C18" color="#1B1C18" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" data-role="content-icon" data-icon="messages-square">
+    <path d="M16.57 9.74C15.33 11.54 15.13 12.28 13.99 12.34Q10.41 11.46 7.02 12.08C6.02 12.03 5.65 12.29 5.69 12.96Q3.93 13.3 3.17 14.81C3.19 14.89 2.66 15.29 2.27 14.84C2.13 14.91 2 14.43 1.91 14.2Q1.77 9.14 2.28 3.41C1.76 2.18 2.36 2.01 3.9 1.6Q9 0.86 14.57 2.29C14.84 1.25 15.98 2.79 16 4.03Q15.57 7 16.01 9.36" />
+    <path d="M19.64 8.46C21.06 9.21 21.96 10.41 21.74 11.34Q22.29 16.14 22.2 21.13C21.86 21.51 21.69 21.62 21.65 21.78C21.13 22.05 20.9 21.72 20.67 21.79Q19.67 20.7 18.8 19.45C18.59 18.77 17.82 18.99 17.01 19.33Q13.59 19.49 9.42 18.69C9 19.04 8.3 17.64 7.91 16.76Q8.15 16.5 7.86 15.97" />
+  </g>
+  <text id="text-004" x="605" y="261" font-family="HarmonyOS Sans SC" font-size="32" font-weight="700" fill="#1B1C18" text-anchor="start">围绕问题组织</text>
+  <path d="M32,289 Q480,294.5 928,289" fill="none" stroke="#858B77" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" data-line-style="handdrawn" />
+  <rect x="32" y="289" width="214" height="76" fill="#F6F8F0" />
+  <text id="text-005" x="50" y="337" font-family="HarmonyOS Sans SC" font-size="26" font-weight="700" fill="#1B1C18" text-anchor="start">开头</text>
+  <rect x="246" y="289" width="341" height="76" fill="#F6F8F0" />
+  <text id="text-006" x="264" y="337" font-family="HarmonyOS Sans SC" font-size="26" font-weight="400" fill="#1B1C18" text-anchor="start">从材料开始</text>
+  <rect x="587" y="289" width="341" height="76" fill="#F6F8F0" />
+  <text id="text-007" x="605" y="337" font-family="HarmonyOS Sans SC" font-size="26" font-weight="400" fill="#1B1C18" text-anchor="start">从读者问题开始</text>
+  <path d="M32,365 Q480,370.5 928,365" fill="none" stroke="#858B77" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" data-line-style="handdrawn" />
+  <rect x="32" y="365" width="214" height="76" fill="#FFFFFF" />
+  <text id="text-008" x="50" y="413" font-family="HarmonyOS Sans SC" font-size="26" font-weight="700" fill="#1B1C18" text-anchor="start">段落作用</text>
+  <rect x="246" y="365" width="341" height="76" fill="#FFFFFF" />
+  <text id="text-009" x="264" y="413" font-family="HarmonyOS Sans SC" font-size="26" font-weight="400" fill="#1B1C18" text-anchor="start">描述手头有什么</text>
+  <rect x="587" y="365" width="341" height="76" fill="#FFFFFF" />
+  <text id="text-010" x="605" y="413" font-family="HarmonyOS Sans SC" font-size="26" font-weight="400" fill="#1B1C18" text-anchor="start">回答一个明确问题</text>
+  <path d="M32,441 Q480,446.5 928,441" fill="none" stroke="#858B77" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" data-line-style="handdrawn" />
+  <rect x="32" y="441" width="214" height="76" fill="#F6F8F0" />
+  <text id="text-011" x="50" y="489" font-family="HarmonyOS Sans SC" font-size="26" font-weight="700" fill="#1B1C18" text-anchor="start">图解选择</text>
+  <rect x="246" y="441" width="341" height="76" fill="#F6F8F0" />
+  <text id="text-012" x="264" y="489" font-family="HarmonyOS Sans SC" font-size="26" font-weight="400" fill="#1B1C18" text-anchor="start">依次放进卡片</text>
+  <rect x="587" y="441" width="341" height="76" fill="#F6F8F0" />
+  <text id="text-013" x="605" y="489" font-family="HarmonyOS Sans SC" font-size="26" font-weight="400" fill="#1B1C18" text-anchor="start">按照真实关系选结构</text>
+  <path d="M32,517 Q480,522.5 928,517" fill="none" stroke="#858B77" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" data-line-style="handdrawn" />
+  <path d="M246,149 Q240.5,333 246,517" fill="none" stroke="#858B77" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" data-line-style="handdrawn" />
+  <path d="M587,149 Q581.5,333 587,517" fill="none" stroke="#858B77" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" data-line-style="handdrawn" />
+  <path d="M32,149 Q480,154.5 928,149 Q933.5,333 928,517 Q480,511.5 32,517 Q26.5,333 32,149" fill="none" stroke="#1B1C18" stroke-width="3.1" stroke-linecap="round" stroke-linejoin="round" data-line-style="handdrawn" />
+</svg>
