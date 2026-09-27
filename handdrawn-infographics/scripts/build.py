@@ -152,10 +152,9 @@ def font_path(explicit,weight):
         p=Path(explicit).expanduser()
         if not p.is_file():raise ValueError(f'Font not found: {p}')
         return p
-    for root in [Path.home()/'Library/Fonts',Path.home()/'.local/share/fonts',Path.home()/'.fonts']:
-        p=root/f'HarmonyOS_Sans_SC_{weight}.ttf'
-        if p.is_file():return p
-    raise ValueError('Install HarmonyOS Sans SC, or pass --font-regular and --font-bold')
+    bundled=ASSETS/'fonts/Xiaolai-Regular.ttf'
+    if bundled.is_file():return bundled
+    raise ValueError('Bundled Xiaolai font is missing. Restore assets/fonts or pass both --font-regular and --font-bold.')
 
 
 def normalize(doc):
@@ -210,12 +209,16 @@ def main():
     p.add_argument('--font-regular');p.add_argument('--font-bold');p.add_argument('--node');p.add_argument('--sharp-module')
     p.add_argument('--svg-only',action='store_true');p.add_argument('--overwrite',action='store_true')
     args=p.parse_args();out=args.out.expanduser().resolve()
+    if bool(args.font_regular) != bool(args.font_bold):
+        raise ValueError('Pass both --font-regular and --font-bold; a single-weight font can use the same path twice.')
     figures=normalize(json.loads(args.input.read_text(encoding='utf-8')))
+    fonts=FontMetrics(font_path(args.font_regular,'Regular'),font_path(args.font_bold,'Bold'))
     targets=[out/'manifest.json',out/'render-report.json',out/'NOTICE-sketchyicons.txt']
     targets += [out/ext.upper()/(f['id']+'.'+ext) for f in figures for ext in ('svg','png')]
+    if fonts.bundled:
+        targets += [out/'fonts'/name for name in ('Xiaolai-Regular.ttf','OFL.txt','README.md')]
     existing=[str(x) for x in targets if x.exists()]
     if existing and not args.overwrite:raise ValueError('Refusing to overwrite existing output. Use a new folder or --overwrite: '+existing[0])
-    fonts=FontMetrics(font_path(args.font_regular,'Regular'),font_path(args.font_bold,'Bold'))
     prepared=[build(f,fonts) for f in figures]  # All layouts pass before writing any output.
     for sub in ('SVG','PNG'):(out/sub).mkdir(parents=True,exist_ok=True)
     records=[]
@@ -224,8 +227,15 @@ def main():
         drawing.save(svg_path)
         record['svg_sha256']=hashlib.sha256(svg_path.read_bytes()).hexdigest()
         records.append(record)
+    font_files={k:str(v) for k,v in fonts.paths.items()}
+    if fonts.bundled:
+        (out/'fonts').mkdir(exist_ok=True)
+        for name in ('Xiaolai-Regular.ttf','OFL.txt','README.md'):
+            shutil.copy2(ASSETS/'fonts'/name,out/'fonts'/name)
+        font_files={k:'fonts/Xiaolai-Regular.ttf' for k in fonts.paths}
     manifest={'schema':1,'style':'handdrawn-infographics B','font_family':fonts.family,
-              'fonts':{k:str(v) for k,v in fonts.paths.items()},'figures':records}
+              'fonts':font_files,'font_styles':fonts.styles,'font_weights':fonts.weights,
+              'embedded_webfont':fonts.bundled,'figures':records}
     (out/'manifest.json').write_text(json.dumps(manifest,ensure_ascii=False,indent=2),encoding='utf-8')
     shutil.copy2(ASSETS/'NOTICE-sketchyicons.txt',out/'NOTICE-sketchyicons.txt')
     if not args.svg_only:

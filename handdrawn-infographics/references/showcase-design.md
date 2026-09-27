@@ -26,6 +26,6 @@
 
 - 主图：`assets/showcase/SVG/` 为母版，`assets/showcase/PNG/` 为网页图片；窄屏通过 README 的 `picture` 选择独立主图。
 - 单张示例：`assets/examples/SVG/` 与 `assets/examples/PNG/` 同名对应；书籍版输入为 `structures.json`，文章版输入为 `articles.json`。
-- PNG 用于直接查看，SVG 用于编辑。字体不随仓库分发，换字体或改长文本后重新测量和看图。
+- PNG 用于直接查看，SVG 用于编辑。默认小赖字体与 OFL 许可随仓库分发，SVG 内嵌当前用字。换字体或改长文本后重新测量和看图。
 - 主图与示例均使用公开的原创演示文案，不包含私人书稿、个人路径或聊天内容。
 - 验收包含真实 GitHub 页面、窄屏呈现、图片加载与链接；本说明中的设计选择本身不作为验收通过的证据。

@@ -4,7 +4,7 @@
 
 ## 环境与命令
 
-需要 Python 3.10+ / fontTools、Node.js / sharp，以及已安装的 HarmonyOS Sans SC 常规和粗体。优先使用现有环境；Codex 桌面可通过 `load_workspace_dependencies` 查已提供的运行时，不默认联网安装，不索要 API Key。
+需要 Python 3.10+ / fontTools / brotli、Node.js / sharp，以及 fontconfig（`fc-match`）。默认小赖字体随 Skill 提供，生成时无需先安装到系统。优先使用现有环境；Codex 桌面可通过 `load_workspace_dependencies` 查已提供的运行时，不默认联网安装，不索要 API Key。
 
 ```sh
 python3 /absolute/path/to/handdrawn-infographics/scripts/build.py \
@@ -13,7 +13,11 @@ python3 /absolute/path/to/handdrawn-infographics/scripts/build.py \
 
 可选 `--font-regular PATH --font-bold PATH --node PATH --sharp-module PATH`。`--svg-only` 仅供调试，不能宣称双格式交付。默认拒绝覆盖同名产物；确认是本次产物后可用 `--overwrite`，不会清空目录。
 
-字体查找 macOS `~/Library/Fonts/` 与 Linux 用户字体目录。其他字体需同一家族、涵盖全部文字并安装到渲染器能找到的位置。脚本用 fontconfig 核对 Regular/Bold 实际匹配，核对不了会停止，避免测量字体和渲染字体不同。换字体后重新看图。
+默认直接读取 `assets/fonts/Xiaolai-Regular.ttf`，以真实 400 字重测量和导出。SVG 保留 `<text>`，嵌入当前图中文字的 WOFF2 子集；完整字体与 OFL 许可复制到输出的 `fonts/`，manifest 使用相对路径，可随输出目录一起移动。
+
+如需其他字体，必须同时传入 `--font-regular` 和 `--font-bold`，同一家族、涵盖全部文字；单字重字体可重复传同一路径。CSS 字重读取字体本身的 OS/2 数据，不硬设为 700。显式自选字体不自动嵌入或分发，用户需确认其授权和跨机器依赖。
+
+PNG 导出在进程内创建临时 fontconfig 配置，只读取指定字体目录，并在加载 sharp 前设置 `PANGOCAIRO_BACKEND=fontconfig`。`fc-match` 核对测量字体的实际文件；检查与 PNG 渲染使用同一后端，避免 macOS Core Text 忽略配置而悄悄回退。临时配置退出后清理，不修改系统字体或全局设置。仍须实看 PNG，不能仅凭字体匹配报告判断字形正确。[sharp 官方字体说明](https://sharp.pixelplumbing.com/install/#fonts)
 
 Node 查找 PATH 与 Codex 本地缓存。sharp 尝试本地模块、环境变量 `SHARP_MODULE` 及 Codex 缓存；环境变更时显式指定路径。
 
@@ -59,7 +63,7 @@ mode/print_width_mm/dpi/png_width 可在根级设置，单图优先。脚本拒�
 
 ## 输出
 
-同一输出目录下：`SVG/<id>.svg`、`PNG/<id>.png`、`manifest.json`、`render-report.json`、`NOTICE-sketchyicons.txt`。
+同一输出目录下：`SVG/<id>.svg`、`PNG/<id>.png`、`fonts/`（默认小赖完整字体、来源与 OFL 许可）、`manifest.json`、`render-report.json`、`NOTICE-sketchyicons.txt`。
 
 manifest 记录生成时的文字边界、字号、来源、SVG 指纹与基础检查；render-report 记录 PNG 尺寸、字体匹配、当前 SVG 指纹与导出参数。两份报告不能代替实际看图。确认中文长标题、中英文混排、图标间距和阅读尺度；在临时副本修改文字再导出一次。
 
@@ -72,6 +76,6 @@ node /absolute/path/to/handdrawn-infographics/scripts/render.cjs \
   /absolute/path/to/交付/manifest.json
 ```
 
-缺字体、依赖或溢出时解决原因，不以转曲、假字、小字或截图代替 SVG。换机器编辑 SVG 需安装同名字体；PNG 不依赖收件人的字体。
+缺字体、依赖或溢出时解决原因，不以转曲、假字、小字或截图代替 SVG。浏览器可直接预览内嵌字形；换机器在桌面编辑器里新增文字时安装输出 `fonts/` 中的完整字体。手工新增字不一定在旧的内嵌子集中，优先改 JSON 重建以更新子集。PNG 不依赖收件人的字体。
 
 结构或风格代码修改后运行 `python3 scripts/test_style.py`：检查九种结构的正文图标、显式图标输入、树形连接笔触，以及手机集合图的图标与字号。此检查不代替全图和阅读尺度的视觉验收。

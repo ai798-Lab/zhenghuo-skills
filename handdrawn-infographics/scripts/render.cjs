@@ -17,29 +17,46 @@ function loadSharp(explicit) {
   throw new Error('sharp is unavailable; specify --sharp-module with an existing installation.');
 }
 
-function fontCheck(manifest) {
+function fontCheck(manifest, out) {
   const executable = ['/opt/homebrew/bin/fc-match', '/usr/local/bin/fc-match', '/usr/bin/fc-match'].find(fs.existsSync) || 'fc-match';
   const result = {};
   for (const [weight, filename] of Object.entries(manifest.fonts)) {
-    const matched = spawnSync(executable, ['-f', '%{file}', `${manifest.font_family}:style=${weight === 'bold' ? 'Bold' : 'Regular'}`], { encoding:'utf8' });
+    const style = manifest.font_styles?.[weight] || (weight === 'bold' ? 'Bold' : 'Regular');
+    const matched = spawnSync(executable, ['-f', '%{file}', `${manifest.font_family}:style=${style}`], { encoding:'utf8' });
     if (matched.error || matched.status !== 0 || !matched.stdout.trim()) {
       throw new Error('Font matching unavailable. Install/configure fontconfig before rendering; do not assume the measured font was used.');
     }
     const actual = fs.realpathSync(matched.stdout.trim());
-    if (actual !== fs.realpathSync(filename)) throw new Error(`Font mismatch for ${weight}: expected ${filename}; matched ${actual}`);
+    if (actual !== fs.realpathSync(path.resolve(out, filename))) throw new Error(`Font mismatch for ${weight}: expected ${filename}; matched ${actual}`);
     result[weight] = path.basename(actual);
   }
   return result;
+}
+
+function configureFonts(manifest, out) {
+  const tmp = fs.mkdtempSync(path.join(os.tmpdir(), 'handdrawn-fonts-'));
+  const escape = value => value.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+  const dirs = [...new Set(Object.values(manifest.fonts).map(p => path.dirname(fs.realpathSync(path.resolve(out,p)))))];
+  const config = path.join(tmp,'fonts.conf');
+  fs.writeFileSync(config, '<?xml version="1.0"?><!DOCTYPE fontconfig SYSTEM "urn:fontconfig:fonts.dtd"><fontconfig>'+
+    dirs.map(dir=>`<dir>${escape(dir)}</dir>`).join('')+`<cachedir>${escape(tmp)}</cachedir></fontconfig>`);
+  process.env.FONTCONFIG_FILE = config;
+  process.env.FONTCONFIG_PATH = tmp;
+  // Must be set before loading sharp. Core Text can silently ignore fontconfig.
+  process.env.PANGOCAIRO_BACKEND = 'fontconfig';
+  return tmp;
 }
 
 (async () => {
   const input = process.argv[2];
   if (!input) throw new Error('Usage: node render.cjs /path/to/manifest.json [--sharp-module /path/to/sharp]');
   const args = process.argv.slice(3); const si = args.indexOf('--sharp-module');
-  const sharp = loadSharp(si >= 0 ? args[si+1] : undefined);
   const manifest = JSON.parse(fs.readFileSync(input, 'utf8'));
   const out = path.dirname(path.resolve(input));
-  const matched = fontCheck(manifest); const rows=[];
+  const fontTmp = configureFonts(manifest, out);
+  try {
+  const sharp = loadSharp(si >= 0 ? args[si+1] : undefined);
+  const matched = fontCheck(manifest, out); const rows=[];
   fs.mkdirSync(path.join(out, 'PNG'), { recursive:true });
   for (const figure of manifest.figures) {
     if (!/^[\p{L}\p{N}_-]+$/u.test(figure.id)) throw new Error('Unsafe figure id');
@@ -68,6 +85,7 @@ function fontCheck(manifest) {
         svg_sha256:sourceHash,layout_check:layoutCheck});
     } finally { if(fs.existsSync(tmp)) fs.unlinkSync(tmp); }
   }
-  fs.writeFileSync(path.join(out,'render-report.json'),JSON.stringify({font_family:manifest.font_family,font_matches:matched,figures:rows,visual_review:'required'},null,2));
+  fs.writeFileSync(path.join(out,'render-report.json'),JSON.stringify({font_family:manifest.font_family,font_matches:matched,font_backend:'fontconfig',figures:rows,visual_review:'required'},null,2));
   console.log(`Rendered ${rows.length} PNG files directly from editable SVG.`);
+  } finally { fs.rmSync(fontTmp, { recursive:true, force:true }); }
 })().catch(error=>{console.error('ERROR: '+error.message);process.exitCode=1;});

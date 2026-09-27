@@ -1,11 +1,109 @@
 <?xml version='1.0' encoding='utf-8'?>
 <svg xmlns="http://www.w3.org/2000/svg" width="960" height="522" viewBox="0 0 960 522" role="img" aria-label="先识别内容的层级" data-text-editable="true" font-kerning="none" font-variant-ligatures="none">
+  <defs id="handdrawn-fonts">
+    <style type="text/css">@font-face{font-family:"Xiaolai";font-style:normal;font-weight:400;src:url(data:font/woff2;base64,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) format("woff2");}</style>
+  </defs>
+  <metadata id="handdrawn-font-license">Copyright 2020-2024 LXGW (https://github.com/lxgw/kose-font)
+Copyright 2014 Nozomi Seto (https://ja.osdn.net/projects/setofont/)
+
+This Font Software is licensed under the SIL Open Font License, Version 1.1.
+This license is copied below, and is also available with a FAQ at:
+http://scripts.sil.org/OFL
+
+
+-----------------------------------------------------------
+SIL OPEN FONT LICENSE Version 1.1 - 26 February 2007
+-----------------------------------------------------------
+
+PREAMBLE
+The goals of the Open Font License (OFL) are to stimulate worldwide
+development of collaborative font projects, to support the font creation
+efforts of academic and linguistic communities, and to provide a free and
+open framework in which fonts may be shared and improved in partnership
+with others.
+
+The OFL allows the licensed fonts to be used, studied, modified and
+redistributed freely as long as they are not sold by themselves. The
+fonts, including any derivative works, can be bundled, embedded,
+redistributed and/or sold with any software provided that any reserved
+names are not used by derivative works. The fonts and derivatives,
+however, cannot be released under any other type of license. The
+requirement for fonts to remain under this license does not apply
+to any document created using the fonts or their derivatives.
+
+DEFINITIONS
+"Font Software" refers to the set of files released by the Copyright
+Holder(s) under this license and clearly marked as such. This may
+include source files, build scripts and documentation.
+
+"Reserved Font Name" refers to any names specified as such after the
+copyright statement(s).
+
+"Original Version" refers to the collection of Font Software components as
+distributed by the Copyright Holder(s).
+
+"Modified Version" refers to any derivative made by adding to, deleting,
+or substituting -- in part or in whole -- any of the components of the
+Original Version, by changing formats or by porting the Font Software to a
+new environment.
+
+"Author" refers to any designer, engineer, programmer, technical
+writer or other person who contributed to the Font Software.
+
+PERMISSION &amp; CONDITIONS
+Permission is hereby granted, free of charge, to any person obtaining
+a copy of the Font Software, to use, study, copy, merge, embed, modify,
+redistribute, and sell modified and unmodified copies of the Font
+Software, subject to the following conditions:
+
+1) Neither the Font Software nor any of its individual components,
+in Original or Modified Versions, may be sold by itself.
+
+2) Original or Modified Versions of the Font Software may be bundled,
+redistributed and/or sold with any software, provided that each copy
+contains the above copyright notice and this license. These can be
+included either as stand-alone text files, human-readable headers or
+in the appropriate machine-readable metadata fields within text or
+binary files as long as those fields can be easily viewed by the user.
+
+3) No Modified Version of the Font Software may use the Reserved Font
+Name(s) unless explicit written permission is granted by the corresponding
+Copyright Holder. This restriction only applies to the primary font name as
+presented to the users.
+
+4) The name(s) of the Copyright Holder(s) or the Author(s) of the Font
+Software shall not be used to promote, endorse or advertise any
+Modified Version, except to acknowledge the contribution(s) of the
+Copyright Holder(s) and the Author(s) or with their explicit written
+permission.
+
+5) The Font Software, modified or unmodified, in part or in whole,
+must be distributed entirely under this license, and must not be
+distributed under any other license. The requirement for fonts to
+remain under this license does not apply to any document created
+using the Font Software.
+
+TERMINATION
+This license becomes null and void if any of the above conditions are
+not met.
+
+DISCLAIMER
+THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT
+OF COPYRIGHT, PATENT, TRADEMARK, OR OTHER RIGHT. IN NO EVENT SHALL THE
+COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
+INCLUDING ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL
+DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
+OTHER DEALINGS IN THE FONT SOFTWARE.
+</metadata>
   <title>先识别内容的层级</title>
   <desc>彩色手绘信息图。文字为可编辑 SVG text。来源：本 Skill 的原创示例文案，仅演示信息关系。</desc>
   <!--Icon geometry: sketchyicons, derived from Lucide/Feather. See accompanying NOTICE-sketchyicons.txt.-->
   <rect x="0" y="0" width="960" height="522" fill="#FFFFFF" />
   <path d="M32,29.0 Q245.0,21.199999999999996 458.0,29.520000000000003 L460.0,76.0 Q245.0,72.0 32,78.0 Z" fill="#D5F548" stroke="none" stroke-width="0" stroke-linecap="round" stroke-linejoin="round" />
-  <text id="text-001" x="32" y="68.0" font-family="HarmonyOS Sans SC" font-size="52" font-weight="700" fill="#1B1C18" text-anchor="start">先识别内容的层级</text>
+  <text id="text-001" x="32" y="68.0" font-family="Xiaolai" font-size="52" font-weight="400" fill="#1B1C18" text-anchor="start">先识别内容的层级</text>
   <path d="M824,79 C820,45.6 852.05,30 878,33 C918.35,31 929,64.5 926,80 C926,118.5 885.2,126 872,123 C834.2,124 826,93.75 824,79 Z" fill="#E6D4FF" stroke="none" stroke-width="0" stroke-linecap="round" stroke-linejoin="round" />
   <g transform="translate(842 45) scale(2.75)" fill="none" stroke="#1B1C18" color="#1B1C18" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
     <path d="M15.62 4.2C15.7 4.35 16.27 4.49 16.53 4.6C16.86 4.2 16.98 4.37 17 3.91C17.8 3.22 18.38 1.53 19.94 1.45C20.73 2.01 21.91 2.92 22.12 4.24C21.79 5.44 20.73 6.67 20.18 6.79C19.64 7.2 19.34 7.64 19.49 7.69C19.4 7.84 19.41 8.32 19.44 8.65Q20.63 9.27 21.37 10.41C21.63 10.83 21.7 11.23 22.01 12.18C21.98 12.51 22.32 12.94 21.56 14.02Q20.89 14.98 19.54 15.22C19.25 15.73 18.89 15.89 18.4 15.57C18.46 15.56 18.16 15.19 18.07 14.85C17.49 14.15 16.07 12.52 14.89 12.74C13.81 12.68 13.53 14.36 12.45 15.54C13.14 16.38 14.1 17.69 14.92 18.07C15.23 18.08 15.53 17.93 15.47 18.62C15.75 18.98 15.8 19.25 15.44 19.45Q14.24 20.14 13.96 21.45C13.52 21.27 12.53 21.94 11.86 21.9C10.99 22.1 10.72 21.51 10.19 20.92Q9.81 20.09 8.54 19.84C8.4 19.5 7.92 19.52 7.45 19.25C7.48 19.49 7.05 19.61 6.83 20.14C6.12 21.2 5.83 22.41 4.74 22.2C2.63 21.74 2.61 20.44 2.27 20.27C2.11 18.59 2.7 17.36 3.9 17.21C4.31 16.83 4.49 16.41 4.72 16.22C4.78 15.81 4.9 15.52 4.2 15.21Q3.37 14.73 3.03 13.86C2.48 13.15 2.1 13.17 1.94 12.26C2.42 11.44 2.71 11.23 2.86 9.99Q3.21 9.11 4.53 8.69C4.38 8.1 4.75 8.15 5.49 8.43C5.86 8.48 6.11 8.98 6.14 9.08C6.7 9.54 7.47 11.06 9.11 11.35C9.87 10.72 10.89 10.03 10.93 9.06C11.35 6.99 10.78 6.24 9.21 6.26C8.65 5.91 8.2 5.79 8.44 5.21C8.34 5.23 8.44 4.55 8.62 4.6Q9.73 3.83 9.96 2.43C10.49 2.18 11.46 1.66 12.24 1.56C12.74 1.92 13.07 2.18 13.45 2.71Q14.16 3.94 15.48 4.5" />
@@ -16,7 +114,7 @@
   <g transform="translate(586.0 171.0) scale(2.1666666666666665)" fill="none" stroke="#1B1C18" color="#1B1C18" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" data-role="content-icon" data-icon="puzzle">
     <path d="M15.62 4.2C15.7 4.35 16.27 4.49 16.53 4.6C16.86 4.2 16.98 4.37 17 3.91C17.8 3.22 18.38 1.53 19.94 1.45C20.73 2.01 21.91 2.92 22.12 4.24C21.79 5.44 20.73 6.67 20.18 6.79C19.64 7.2 19.34 7.64 19.49 7.69C19.4 7.84 19.41 8.32 19.44 8.65Q20.63 9.27 21.37 10.41C21.63 10.83 21.7 11.23 22.01 12.18C21.98 12.51 22.32 12.94 21.56 14.02Q20.89 14.98 19.54 15.22C19.25 15.73 18.89 15.89 18.4 15.57C18.46 15.56 18.16 15.19 18.07 14.85C17.49 14.15 16.07 12.52 14.89 12.74C13.81 12.68 13.53 14.36 12.45 15.54C13.14 16.38 14.1 17.69 14.92 18.07C15.23 18.08 15.53 17.93 15.47 18.62C15.75 18.98 15.8 19.25 15.44 19.45Q14.24 20.14 13.96 21.45C13.52 21.27 12.53 21.94 11.86 21.9C10.99 22.1 10.72 21.51 10.19 20.92Q9.81 20.09 8.54 19.84C8.4 19.5 7.92 19.52 7.45 19.25C7.48 19.49 7.05 19.61 6.83 20.14C6.12 21.2 5.83 22.41 4.74 22.2C2.63 21.74 2.61 20.44 2.27 20.27C2.11 18.59 2.7 17.36 3.9 17.21C4.31 16.83 4.49 16.41 4.72 16.22C4.78 15.81 4.9 15.52 4.2 15.21Q3.37 14.73 3.03 13.86C2.48 13.15 2.1 13.17 1.94 12.26C2.42 11.44 2.71 11.23 2.86 9.99Q3.21 9.11 4.53 8.69C4.38 8.1 4.75 8.15 5.49 8.43C5.86 8.48 6.11 8.98 6.14 9.08C6.7 9.54 7.47 11.06 9.11 11.35C9.87 10.72 10.89 10.03 10.93 9.06C11.35 6.99 10.78 6.24 9.21 6.26C8.65 5.91 8.2 5.79 8.44 5.21C8.34 5.23 8.44 4.55 8.62 4.6Q9.73 3.83 9.96 2.43C10.49 2.18 11.46 1.66 12.24 1.56C12.74 1.92 13.07 2.18 13.45 2.71Q14.16 3.94 15.48 4.5" />
   </g>
-  <text id="text-002" x="445.0" y="213.0" font-family="HarmonyOS Sans SC" font-size="42" font-weight="700" fill="#1B1C18" text-anchor="middle">文章内容</text>
+  <text id="text-002" x="445.0" y="213.0" font-family="Xiaolai" font-size="42" font-weight="400" fill="#1B1C18" text-anchor="middle">文章内容</text>
   <path d="M88.0,322 C176.8,319 328.0,324 424.0,321 Q437.0,322 436.0,335 C434.0,381.42 438.0,437.07 436.0,468 Q435.0,481 422.0,480 C328.0,482 184.0,478 88.0,480 Q75.0,480 76.0,468 C78.0,429.12 74.0,368.7 76.0,333 Q76.0,321 88.0,322 Z" fill="#ECE2FC" stroke="#1B1C18" stroke-width="3.3" stroke-linecap="round" stroke-linejoin="round" />
   <g transform="translate(362.0 343.0) scale(2.1666666666666665)" fill="none" stroke="#1B1C18" color="#1B1C18" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" data-role="content-icon" data-icon="checklist">
     <path d="M7 3.5 Q13 3 20.2 3.6 L19.7 21 Q12.9 20.4 5 21.3 L5.3 5.8" />
@@ -25,13 +123,13 @@
     <path d="M8.4 13 Q13 12.6 17 13.2" />
     <path d="M8.6 17.8 Q11.7 17.2 15.6 17.8" />
   </g>
-  <text id="text-003" x="221.0" y="385.0" font-family="HarmonyOS Sans SC" font-size="42" font-weight="700" fill="#1B1C18" text-anchor="middle">事实</text>
-  <text id="text-004" x="256.0" y="445.0" font-family="HarmonyOS Sans SC" font-size="38" font-weight="400" fill="#32352E" text-anchor="middle">先核实</text>
+  <text id="text-003" x="221.0" y="385.0" font-family="Xiaolai" font-size="42" font-weight="400" fill="#1B1C18" text-anchor="middle">事实</text>
+  <text id="text-004" x="256.0" y="445.0" font-family="Xiaolai" font-size="38" font-weight="400" fill="#32352E" text-anchor="middle">先核实</text>
   <path d="M536.0,322 C624.8,319 776.0,324 872.0,321 Q885.0,322 884.0,335 C882.0,381.42 886.0,437.07 884.0,468 Q883.0,481 870.0,480 C776.0,482 632.0,478 536.0,480 Q523.0,480 524.0,468 C526.0,429.12 522.0,368.7 524.0,333 Q524.0,321 536.0,322 Z" fill="#ECE2FC" stroke="#1B1C18" stroke-width="3.3" stroke-linecap="round" stroke-linejoin="round" />
   <g transform="translate(810.0 343.0) scale(2.1666666666666665)" fill="none" stroke="#1B1C18" color="#1B1C18" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" data-role="content-icon" data-icon="messages-square">
     <path d="M16.57 9.74C15.33 11.54 15.13 12.28 13.99 12.34Q10.41 11.46 7.02 12.08C6.02 12.03 5.65 12.29 5.69 12.96Q3.93 13.3 3.17 14.81C3.19 14.89 2.66 15.29 2.27 14.84C2.13 14.91 2 14.43 1.91 14.2Q1.77 9.14 2.28 3.41C1.76 2.18 2.36 2.01 3.9 1.6Q9 0.86 14.57 2.29C14.84 1.25 15.98 2.79 16 4.03Q15.57 7 16.01 9.36" />
     <path d="M19.64 8.46C21.06 9.21 21.96 10.41 21.74 11.34Q22.29 16.14 22.2 21.13C21.86 21.51 21.69 21.62 21.65 21.78C21.13 22.05 20.9 21.72 20.67 21.79Q19.67 20.7 18.8 19.45C18.59 18.77 17.82 18.99 17.01 19.33Q13.59 19.49 9.42 18.69C9 19.04 8.3 17.64 7.91 16.76Q8.15 16.5 7.86 15.97" />
   </g>
-  <text id="text-005" x="669.0" y="385.0" font-family="HarmonyOS Sans SC" font-size="42" font-weight="700" fill="#1B1C18" text-anchor="middle">观点</text>
-  <text id="text-006" x="704.0" y="445.0" font-family="HarmonyOS Sans SC" font-size="38" font-weight="400" fill="#32352E" text-anchor="middle">说明依据</text>
+  <text id="text-005" x="669.0" y="385.0" font-family="Xiaolai" font-size="42" font-weight="400" fill="#1B1C18" text-anchor="middle">观点</text>
+  <text id="text-006" x="704.0" y="445.0" font-family="Xiaolai" font-size="38" font-weight="400" fill="#32352E" text-anchor="middle">说明依据</text>
 </svg>

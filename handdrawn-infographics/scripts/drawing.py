@@ -2,6 +2,8 @@
 from pathlib import Path
 from functools import lru_cache
 from contextlib import contextmanager
+from io import BytesIO
+import base64
 import copy
 import math
 import re
@@ -39,6 +41,44 @@ class FontMetrics:
         if names[0] != names[1]:
             raise ValueError('Regular and Bold must belong to the same font family')
         self.family = names[0]
+        self.weights = {k: int(f['OS/2'].usWeightClass) for k, f in self.fonts.items()}
+        self.styles = {k: f['name'].getDebugName(17) or f['name'].getDebugName(2) or 'Regular'
+                       for k, f in self.fonts.items()}
+        bundled = (ASSETS / 'fonts/Xiaolai-Regular.ttf').resolve()
+        self.bundled = all(p == bundled for p in self.paths.values())
+
+    def embed_webfont(self, root):
+        """Embed only our redistributable default font; keep every SVG text editable."""
+        if not self.bundled:
+            return
+        from fontTools import subset
+        # Composed showcase SVGs share one subset covering every nested diagram.
+        for parent in root.iter():
+            for child in list(parent):
+                if any(child.get('id', '').endswith(name) for name in ('handdrawn-fonts', 'handdrawn-font-license')):
+                    parent.remove(child)
+        text = ''.join(t.text or '' for t in root.iter('{'+NS+'}text'))
+        font = TTFont(str(self.paths['regular']))
+        options = subset.Options()
+        options.name_IDs = ['*']
+        options.name_legacy = True
+        options.name_languages = ['*']
+        worker = subset.Subsetter(options=options)
+        worker.populate(text=text)
+        worker.subset(font)
+        font.flavor = 'woff2'
+        buffer = BytesIO()
+        font.save(buffer)
+        encoded = base64.b64encode(buffer.getvalue()).decode('ascii')
+        defs = el('defs', id='handdrawn-fonts')
+        style = el('style', type='text/css')
+        style.text = ('@font-face{font-family:"Xiaolai";font-style:normal;font-weight:400;'
+                      'src:url(data:font/woff2;base64,'+encoded+') format("woff2");}')
+        defs.append(style)
+        root.insert(0, defs)
+        license_node = el('metadata', id='handdrawn-font-license')
+        license_node.text = (ASSETS / 'fonts/OFL.txt').read_text(encoding='utf-8')
+        root.insert(1, license_node)
 
     @lru_cache(maxsize=32768)
     def glyph(self, ch, weight):
@@ -133,7 +173,7 @@ class Drawing:
         advance, box = self.fonts.measure(text, size, weight)
         tx = x - (advance/2 if anchor == 'middle' else advance if anchor == 'end' else 0)
         e = el('text', id=f'text-{len(self.texts)+1:03d}', x=x, y=y, font_family=self.fonts.family,
-               font_size=size, font_weight=700 if weight == 'bold' else 400, fill=fill, text_anchor=anchor)
+               font_size=size, font_weight=self.fonts.weights[weight], fill=fill, text_anchor=anchor)
         e.text = text; self.root.append(e)
         self.texts.append({'text': text, 'size': size, 'bounds': [tx+box[0], y+box[1], tx+box[2], y+box[3]], 'zone': self.active_zone})
 
@@ -206,5 +246,6 @@ class Drawing:
         return {'text_count': len(self.texts), 'editable': True, 'layout_errors': [], 'visual_review': 'required'}
 
     def save(self, path):
+        self.fonts.embed_webfont(self.root)
         ET.indent(self.root)
         ET.ElementTree(self.root).write(path, encoding='utf-8', xml_declaration=True)

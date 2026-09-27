@@ -10,12 +10,12 @@
 </picture>
 
 - **线条和图标都保留手绘感。** 浅绿、浅紫、浅青与浅橙色块，搭配黑色曲线笔触；正文图标与内容含义对应。
-- **文字端正、清楚、可编辑。** SVG 保留真实文字节点，PNG 从同一份 SVG 导出，分别放入 `SVG/`、`PNG/` 文件夹。
+- **小赖手写文字，清楚、可编辑。** SVG 保留真实文字节点，PNG 从同一份 SVG 导出，分别放入 `SVG/`、`PNG/` 文件夹。
 - **结构跟着内容走。** 支持 14 种内置结构，配套 20 类信息关系选型。坐标轴和数据位置保持准确，手绘笔触不改变信息含义。
 
 ## 看效果
 
-下面是实际生成的文章版二维矩阵。图标、边框和连接使用手绘线稿，文字保留印刷字体；两个判断维度都明确标在坐标轴上。
+下面是实际生成的文章版二维矩阵。图标、边框和连接使用手绘线稿，文字默认采用小赖手写字体；两个判断维度都明确标在坐标轴上。
 
 ![文章版二维矩阵：实施成本与预期影响共同决定四象限，含手绘语义图标](assets/examples/PNG/matrix-article.png)
 
@@ -51,7 +51,7 @@
 | Codex | `~/.codex/skills/handdrawn-infographics/` |
 | Claude Code | `~/.claude/skills/handdrawn-infographics/` |
 
-绘图脚本在本地运行，需要 Python 3.10+ 与 fontTools、Node.js 与 sharp、fontconfig（`fc-match`），以及已安装的 HarmonyOS Sans SC 常规体和粗体。字体不随仓库分发；替换字体时需要重新测量并检查成图。实际依赖路径与参数见 [生成器说明](references/renderer.md)。
+绘图脚本在本地运行，需要 Python 3.10+ 与 fontTools、brotli，Node.js 与 sharp，以及 fontconfig（`fc-match`）。默认小赖字体已随仓库提供，生成时无需先安装到系统；替换字体时需要重新测量并检查成图。实际依赖路径与参数见 [生成器说明](references/renderer.md)。
 
 ## 使用
 
@@ -74,15 +74,15 @@ python3 scripts/build.py assets/examples/structures.json --out output/structures
 python3 scripts/build.py assets/examples/articles.json --out output/articles
 ```
 
-每个输出目录都包含 `SVG/` 和 `PNG/`。默认拒绝覆盖同名文件；输入规范、字体参数和重新导出方式见 [生成器说明](references/renderer.md) 与 [结构输入](references/structure-inputs.md)。
+每个输出目录都包含 `SVG/`、`PNG/`，以及小赖完整字体和许可证所在的 `fonts/`。默认拒绝覆盖同名文件；输入规范、字体参数和重新导出方式见 [生成器说明](references/renderer.md) 与 [结构输入](references/structure-inputs.md)。
 
-**修改文字：** 优先修改 JSON 内容再生成，生成器会重新测量文字和安排空间。也可以在支持 SVG 的编辑器中修改文字；改长文后需要重新检查换行和遮挡，再从修改后的 SVG 导出 PNG。编辑 SVG 的机器需要安装相应字体；使用 PNG 无需安装字体。
+**修改文字：** 优先修改 JSON 内容再生成，生成器会重新测量文字和安排空间。也可以在支持 SVG 的编辑器中修改文字；改长文后需要重新检查换行和遮挡，再从修改后的 SVG 导出 PNG。SVG 已嵌入当前用字，浏览器可直接预览；在桌面编辑器中新增或修改文字时，先安装输出 `fonts/` 中的完整小赖字体。优先改 JSON 重建，可同时更新字体子集与排版。使用 PNG 无需安装字体。
 
 绘图与字体检查由本地脚本完成，不需要图片生成 API Key。示例使用原创演示文案。使用 AI 工具整理内容时，正文如何传给模型仍取决于所用工具的设置。
 
 ## 本次更新
 
-2026-09-27：恢复新增九种结构中的正文手绘图标与曲线笔触，保留文字可编辑和旧布局兼容性；更新 GitHub 主图、独立窄屏主图、九图总览和分组示例页。
+2026-09-27：默认字体改为已确认的**小赖手写体**，随包提供原始字体与商用许可；SVG 内嵌当前用字，PNG 使用同一字体导出。桌面与窄屏主图、九图总览和 18 套文章／书籍示例同步重绘，继续保留正文手绘图标、多种信息结构和可编辑文字。
 
 维护布局时运行 `python3 scripts/test_style.py`，检查正文图标、显式图标选择、手绘连接和文章版集合图的字号，同时实际查看成图。桌面端与窄屏主图分别排版，九种结构同时提供可查看的文章版与书籍版示例。
 
@@ -100,4 +100,4 @@ python3 scripts/build.py assets/examples/articles.json --out output/articles
 
 ## 许可
 
-代码与文档遵循仓库的 [MIT 许可](LICENSE)。手绘图标来自 sketchyicons 使用的 Lucide / Feather 派生几何，保留其 ISC / MIT 声明，见 [第三方图标许可](assets/NOTICE-sketchyicons.txt)。
+代码与文档遵循仓库的 [MIT 许可](LICENSE)。小赖字体单独遵循 [SIL OFL 1.1](assets/fonts/OFL.txt)，个人和企业可免费商用，适用于图书、文章、课程和商业设计。分发字体时保留完整许可证，不得单独出售字体文件；图文作品不因此必须使用 OFL 许可。见 [字体来源与使用说明](assets/fonts/README.md) 和 [作者授权](https://github.com/lxgw/kose-font#授权信息)。手绘图标来自 sketchyicons 使用的 Lucide / Feather 派生几何，保留其 ISC / MIT 声明，见 [第三方图标许可](assets/NOTICE-sketchyicons.txt)。
