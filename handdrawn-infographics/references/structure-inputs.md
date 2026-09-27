@@ -6,6 +6,14 @@
 
 可选 `intent` 写读者问题，`selection_reason` 写选型原因；它们进入 manifest，不显示在图里。
 
+## 正文手绘图标
+
+各结构的 `title` / `lines` 内容块支持 `icon`；tree 的 nodes、decision 的 question/branches、swimlane 的 events、layers 的 layers、funnel 的 stages 都可填写。venn 的 left/right/intersection 也支持，其中左右图标画在各自独有区域。table 使用 `column_icons: ["folder", "messages-square"]` 为两个比较方案指定图标。
+
+可用图标：copy、messages-square、search、book-open、puzzle、chart-line、timeline、download、rocket、external-link，以及 folder、checklist。必须按内容选择，不能每个节点都随手放拼图。旧输入未填时会使用有限的标题关键词匹配作兼容兜底，正式制作优先显式指定。
+
+示例：`{"title":"核实依据","lines":["确认来源与事实"],"icon":"checklist"}`。图标会参与占位计算；窄节点放在标题上方，宽节点放在标题右侧，正文仍保留原字号。未知图标会报错，不会悄悄替换或删除。
+
 所有文本支持 `\n` 显式换行。自动折行按字形宽度处理，不能保证中文短语完整；菱形、树节点等窄区域先按语义安排短行，再检查成图。例如判断标题可写 `"稿件\n关键事实\n已核实吗？"`。不能用缩小字号来容纳长段原文。
 
 ## tree：父子归属

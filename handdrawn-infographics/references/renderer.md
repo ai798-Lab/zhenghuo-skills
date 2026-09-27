@@ -48,6 +48,7 @@ Node 查找 PATH 与 Codex 本地缓存。sharp 尝试本地模块、环境变�
 | label | 可选图号或栏目名，不自动产生书籍图号 |
 | subtitle / note / source | 可选字符串；source 为真实来源说明 |
 | items[].icon | 已附图标名，默认 puzzle |
+| data 内的 icon / table.column_icons | 正文语义图标，具体位置见 [结构输入](structure-inputs.md)；不只生成标题装饰 |
 | items[].label | 可选日期或阶段，时间轴优先使用，不替代 title |
 | items[].human | true 使用浅橙，仍需保留人工操作文字 |
 | print_width_mm | book 默认 144，改后核算字号 |
@@ -72,3 +73,5 @@ node /absolute/path/to/handdrawn-infographics/scripts/render.cjs \
 ```
 
 缺字体、依赖或溢出时解决原因，不以转曲、假字、小字或截图代替 SVG。换机器编辑 SVG 需安装同名字体；PNG 不依赖收件人的字体。
+
+结构或风格代码修改后运行 `python3 scripts/test_style.py`：检查九种结构的正文图标、显式图标输入、树形连接笔触，以及手机集合图的图标与字号。此检查不代替全图和阅读尺度的视觉验收。

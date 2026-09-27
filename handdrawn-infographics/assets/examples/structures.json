@@ -10,7 +10,8 @@
         "nodes": [
           {
             "id": "root",
-            "title": "内容制作"
+            "title": "内容制作",
+            "icon": "puzzle"
           },
           {
             "id": "research",
@@ -18,7 +19,8 @@
             "title": "研究",
             "lines": [
               "先理解问题"
-            ]
+            ],
+            "icon": "search"
           },
           {
             "id": "produce",
@@ -26,27 +28,32 @@
             "title": "制作",
             "lines": [
               "组织表达"
-            ]
+            ],
+            "icon": "copy"
           },
           {
             "id": "fact",
             "parent": "research",
-            "title": "事实核对"
+            "title": "事实核对",
+            "icon": "checklist"
           },
           {
             "id": "outline",
             "parent": "research",
-            "title": "结构提炼"
+            "title": "结构提炼",
+            "icon": "puzzle"
           },
           {
             "id": "words",
             "parent": "produce",
-            "title": "文字撰写"
+            "title": "文字撰写",
+            "icon": "copy"
           },
           {
             "id": "image",
             "parent": "produce",
-            "title": "图解表达"
+            "title": "图解表达",
+            "icon": "chart-line"
           }
         ]
       },
@@ -64,32 +71,37 @@
           "title": "好内容",
           "lines": [
             "围绕读者"
-          ]
+          ],
+          "icon": "book-open"
         },
         "items": [
           {
             "title": "问题",
             "lines": [
               "要解决什么"
-            ]
+            ],
+            "icon": "messages-square"
           },
           {
             "title": "证据",
             "lines": [
               "有什么依据"
-            ]
+            ],
+            "icon": "search"
           },
           {
             "title": "结构",
             "lines": [
               "怎样讲清楚"
-            ]
+            ],
+            "icon": "puzzle"
           },
           {
             "title": "表达",
             "lines": [
               "怎样读得懂"
-            ]
+            ],
+            "icon": "book-open"
           }
         ]
       },
@@ -118,25 +130,29 @@
             "title": "优先尝试",
             "lines": [
               "低成本，高影响"
-            ]
+            ],
+            "icon": "rocket"
           },
           "tr": {
             "title": "重点规划",
             "lines": [
               "高成本，高影响"
-            ]
+            ],
+            "icon": "checklist"
           },
           "bl": {
             "title": "顺手改进",
             "lines": [
               "低成本，低影响"
-            ]
+            ],
+            "icon": "chart-line"
           },
           "br": {
             "title": "谨慎投入",
             "lines": [
               "高成本，低影响"
-            ]
+            ],
+            "icon": "search"
           }
         }
       },
@@ -151,7 +167,8 @@
       "subtitle": "每条分支都写清触发条件。",
       "data": {
         "question": {
-          "title": "关键事实已核实？"
+          "title": "关键事实\n已核实？",
+          "icon": "checklist"
         },
         "branches": [
           {
@@ -159,14 +176,16 @@
             "title": "进入写作",
             "lines": [
               "按已确认材料展开"
-            ]
+            ],
+            "icon": "copy"
           },
           {
             "label": "否",
             "title": "补充查证",
             "lines": [
               "找原始来源或标明未知"
-            ]
+            ],
+            "icon": "search"
           }
         ]
       },
@@ -191,28 +210,32 @@
             "title": "提出问题",
             "lines": [
               "说明读者与目标"
-            ]
+            ],
+            "icon": "messages-square"
           },
           {
             "lane": "AI 助手",
             "title": "整理草稿",
             "lines": [
               "保留来源与疑点"
-            ]
+            ],
+            "icon": "copy"
           },
           {
             "lane": "作者",
             "title": "确认判断",
             "lines": [
               "补充经验与事实"
-            ]
+            ],
+            "icon": "checklist"
           },
           {
             "lane": "编辑",
             "title": "检查成稿",
             "lines": [
               "校对表达和引用"
-            ]
+            ],
+            "icon": "book-open"
           }
         ]
       },
@@ -231,19 +254,22 @@
             "title": "应用层",
             "lines": [
               "文章、课程与研究报告"
-            ]
+            ],
+            "icon": "book-open"
           },
           {
             "title": "方法层",
             "lines": [
               "提问、查证、组织与表达"
-            ]
+            ],
+            "icon": "puzzle"
           },
           {
             "title": "基础层",
             "lines": [
               "资料、工具与已有经验"
-            ]
+            ],
+            "icon": "folder"
           }
         ]
       },
@@ -262,25 +288,29 @@
             "title": "收集材料",
             "lines": [
               "纳入可能有帮助的线索"
-            ]
+            ],
+            "icon": "folder"
           },
           {
             "title": "筛选相关性",
             "lines": [
               "留下能回答当前问题的内容"
-            ]
+            ],
+            "icon": "search"
           },
           {
             "title": "核实依据",
             "lines": [
               "确认来源、条件与事实"
-            ]
+            ],
+            "icon": "checklist"
           },
           {
             "title": "进入正文",
             "lines": [
               "保留最能支撑主张的材料"
-            ]
+            ],
+            "icon": "book-open"
           }
         ]
       },
@@ -299,20 +329,23 @@
           "only": [
             "暂不相关",
             "另行归档"
-          ]
+          ],
+          "icon": "folder"
         },
         "right": {
           "title": "与主题相关",
           "only": [
             "尚未核实",
             "继续查证"
-          ]
+          ],
+          "icon": "search"
         },
         "intersection": {
           "title": "优先采用",
           "lines": [
             "相关且已核实"
-          ]
+          ],
+          "icon": "checklist"
         }
       },
       "source": "本 Skill 的原创示例文案，仅演示信息关系",
@@ -350,6 +383,10 @@
               "按照真实关系选结构"
             ]
           }
+        ],
+        "column_icons": [
+          "folder",
+          "messages-square"
         ]
       },
       "source": "本 Skill 的原创示例文案，仅演示信息关系",
