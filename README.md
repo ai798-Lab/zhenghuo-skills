@@ -37,6 +37,22 @@ GPT-3.5 引用了一篇完美格式的论文。那篇论文不存在。<br>
 
 ---
 
+### 🎨 [手绘信息图表](./handdrawn-infographics/) — 把内容关系画清楚
+
+触发词：`手绘信息图` `信息图表` `handdrawn-infographics` `可编辑 SVG`
+
+为文章、书籍、课程和报告制作彩色手绘信息图。先判断内容中的归属、条件、比较或协作关系，再选择结构，统一使用白底、浅彩色块、黑色手绘线稿与清楚的印刷文字。
+
+内置 **14 种结构**：流程、卡片、对比、闭环、时间轴，以及树形、中心辐射、二维矩阵、判断分支、角色泳道、分层、筛选漏斗、集合交集和逐项对照表。配套 **20 类信息关系选型库**。
+
+**SVG 文字可编辑，PNG 可直接使用，两套文件分文件夹输出。** 本地生成需要 Python、Node.js、字体与渲染依赖，支持 Codex / Claude Code 的 Skill 目录安装。
+
+[→ 查看九种结构预览、安装与使用说明](./handdrawn-infographics/)
+
+&nbsp;
+
+---
+
 ### 🧹 [冯宝宝](./feng-baobao/) — 去废话神器
 
 <img align="right" width="120" src="https://static.zerochan.net/Baobao.Feng.full.3118031.jpg">
@@ -379,10 +395,11 @@ Early Claude ❯ I appreciate you bringing this up. However, I want to
 ## 快速安装
 
 ```bash
-# 安装全部 10 个 skill（推荐）
+# 安装全部 11 个 skill（推荐）
 git clone https://github.com/ai798-Lab/zhenghuo-skills ~/.claude/skills/zhenghuo
 cd ~/.claude/skills/zhenghuo
 for skill in */; do
+  [ -f "$skill/SKILL.md" ] || continue
   ln -sf "$(pwd)/$skill" "$HOME/.claude/skills/${skill%/}"
 done
 ```
@@ -403,7 +420,7 @@ ln -sf "$(pwd)/feng-baobao" "$HOME/.claude/skills/feng-baobao"
 
 **ai798-Lab 会持续添加新的整活 Skill。**
 
-目前已有 10 个，后续还会继续蒸馏更多角色、AI 版本、网络现象。
+目前已有 11 个，后续还会继续添加角色、AI 版本、网络现象与内容创作 Skill。
 
 ⭐ Star 这个仓库，有新 Skill 第一时间知道。<br>
 🐛 有想蒸馏的角色/AI/现象？[提一个 Issue](https://github.com/ai798-Lab/zhenghuo-skills/issues) 告诉我们。<br>

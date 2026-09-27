@@ -1,0 +1,238 @@
+{
+  "mode": "article",
+  "figures": [
+    {
+      "id": "article-seven-steps",
+      "kind": "steps",
+      "title": "从一个观点到一篇文章",
+      "subtitle": "先把问题想清楚，再开始写。",
+      "source": "技能演示内容：七步文章流程",
+      "items": [
+        {
+          "title": "确定读者",
+          "lines": [
+            "先写清读者遇到的问题"
+          ],
+          "icon": "messages-square"
+        },
+        {
+          "title": "提取主张",
+          "lines": [
+            "用一句话说明文章想回答什么"
+          ],
+          "icon": "puzzle"
+        },
+        {
+          "title": "查证材料",
+          "lines": [
+            "保留来源、条件和不确定性"
+          ],
+          "icon": "search"
+        },
+        {
+          "title": "整理结构",
+          "lines": [
+            "把材料排成读者能理解的顺序"
+          ],
+          "icon": "folder"
+        },
+        {
+          "title": "撰写草稿",
+          "lines": [
+            "围绕主张展开事实与解释"
+          ],
+          "icon": "copy"
+        },
+        {
+          "title": "人工校对",
+          "lines": [
+            "核对事实、引用与表达"
+          ],
+          "icon": "checklist",
+          "human": true
+        },
+        {
+          "title": "发布复盘",
+          "lines": [
+            "根据真实反馈改进下一次写作"
+          ],
+          "icon": "chart-line"
+        }
+      ]
+    },
+    {
+      "id": "book-six-steps",
+      "mode": "book",
+      "kind": "steps",
+      "label": "书籍版式示例",
+      "title": "把经验变成可复用的方法",
+      "subtitle": "每行两步，逐行完成。",
+      "source": "技能演示内容，非书稿改写",
+      "items": [
+        {
+          "title": "确定读者",
+          "lines": [
+            "先写清读者遇到的问题"
+          ],
+          "icon": "messages-square"
+        },
+        {
+          "title": "提取主张",
+          "lines": [
+            "用一句话说明文章想回答什么"
+          ],
+          "icon": "puzzle"
+        },
+        {
+          "title": "查证材料",
+          "lines": [
+            "保留来源、条件和不确定性"
+          ],
+          "icon": "search"
+        },
+        {
+          "title": "整理结构",
+          "lines": [
+            "把材料排成读者能理解的顺序"
+          ],
+          "icon": "folder"
+        },
+        {
+          "title": "撰写草稿",
+          "lines": [
+            "围绕主张展开事实与解释"
+          ],
+          "icon": "copy"
+        },
+        {
+          "title": "人工校对",
+          "lines": [
+            "核对事实、引用与表达"
+          ],
+          "icon": "checklist"
+        }
+      ],
+      "note": "人工校对保留在流程中，不能省略。"
+    },
+    {
+      "id": "book-four-cycle",
+      "mode": "book",
+      "kind": "cycle",
+      "title": "让内容持续改进",
+      "subtitle": "每轮反馈回到下一轮选题。",
+      "source": "技能演示：明确要求反馈闭环",
+      "items": [
+        {
+          "title": "收集问题",
+          "lines": [
+            "从真实读者的问题出发"
+          ],
+          "icon": "messages-square"
+        },
+        {
+          "title": "形成内容",
+          "lines": [
+            "把研究结果整理成文章"
+          ],
+          "icon": "copy"
+        },
+        {
+          "title": "收集反馈",
+          "lines": [
+            "记录读者理解和误解之处"
+          ],
+          "icon": "chart-line"
+        },
+        {
+          "title": "调整选题",
+          "lines": [
+            "将新问题带回下一轮"
+          ],
+          "icon": "search"
+        }
+      ]
+    },
+    {
+      "id": "article-comparison",
+      "kind": "compare",
+      "title": "同一件事，两种表达",
+      "subtitle": "比较组织方式，不夸大内容效果。",
+      "source": "技能演示内容",
+      "items": [
+        {
+          "title": "材料堆叠",
+          "lines": [
+            "先展示所有资料",
+            "读者自行寻找重点"
+          ],
+          "icon": "copy"
+        },
+        {
+          "title": "围绕问题组织",
+          "lines": [
+            "先说明要回答的问题",
+            "每段材料支持一个明确观点"
+          ],
+          "icon": "puzzle"
+        }
+      ]
+    },
+    {
+      "id": "article-timeline",
+      "kind": "timeline",
+      "title": "内容维护的三个时点",
+      "source": "技能演示，节奏仅为示例",
+      "items": [
+        {
+          "label": "每次使用后",
+          "title": "记录反馈",
+          "lines": [
+            "标记读者提出的新问题"
+          ],
+          "icon": "messages-square"
+        },
+        {
+          "label": "每月",
+          "title": "修订常见问题",
+          "lines": [
+            "核对经常变化的资料与说明"
+          ],
+          "icon": "checklist"
+        },
+        {
+          "label": "每季度",
+          "title": "重新看整体结构",
+          "lines": [
+            "合并重复内容，补充缺少的解释"
+          ],
+          "icon": "timeline"
+        }
+      ]
+    },
+    {
+      "id": "long-labels",
+      "mode": "book",
+      "kind": "cards",
+      "title": "长标题与中英文混排也要保留阅读空间",
+      "source": "排版压力示例",
+      "items": [
+        {
+          "title": "检查可编辑 SVG 文本",
+          "lines": [
+            "保留 SKILL.md、name 与 description",
+            "不要将六个步骤挤进同一横排"
+          ],
+          "icon": "copy"
+        },
+        {
+          "title": "核对全部来源和限制条件",
+          "lines": [
+            "长标识符 content-production-workflow",
+            "不减少字数来掩盖布局问题。"
+          ],
+          "icon": "checklist"
+        }
+      ]
+    }
+  ]
+}

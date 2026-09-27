@@ -1,0 +1,360 @@
+{
+  "mode": "book",
+  "figures": [
+    {
+      "id": "01-tree",
+      "kind": "tree",
+      "title": "知识结构：谁属于谁",
+      "subtitle": "父子连线表示归属关系。",
+      "data": {
+        "nodes": [
+          {
+            "id": "root",
+            "title": "内容制作"
+          },
+          {
+            "id": "research",
+            "parent": "root",
+            "title": "研究",
+            "lines": [
+              "先理解问题"
+            ]
+          },
+          {
+            "id": "produce",
+            "parent": "root",
+            "title": "制作",
+            "lines": [
+              "组织表达"
+            ]
+          },
+          {
+            "id": "fact",
+            "parent": "research",
+            "title": "事实核对"
+          },
+          {
+            "id": "outline",
+            "parent": "research",
+            "title": "结构提炼"
+          },
+          {
+            "id": "words",
+            "parent": "produce",
+            "title": "文字撰写"
+          },
+          {
+            "id": "image",
+            "parent": "produce",
+            "title": "图解表达"
+          }
+        ]
+      },
+      "source": "本 Skill 的原创示例文案，仅演示信息关系",
+      "intent": "父子连线表示归属关系。",
+      "selection_reason": "用 tree 保留对应关系，不转成普通列表。"
+    },
+    {
+      "id": "02-radial",
+      "kind": "radial",
+      "title": "中心主题：向外展开",
+      "subtitle": "各分支共同解释中心主题，没有先后顺序。",
+      "data": {
+        "center": {
+          "title": "好内容",
+          "lines": [
+            "围绕读者"
+          ]
+        },
+        "items": [
+          {
+            "title": "问题",
+            "lines": [
+              "要解决什么"
+            ]
+          },
+          {
+            "title": "证据",
+            "lines": [
+              "有什么依据"
+            ]
+          },
+          {
+            "title": "结构",
+            "lines": [
+              "怎样讲清楚"
+            ]
+          },
+          {
+            "title": "表达",
+            "lines": [
+              "怎样读得懂"
+            ]
+          }
+        ]
+      },
+      "source": "本 Skill 的原创示例文案，仅演示信息关系",
+      "intent": "各分支共同解释中心主题，没有先后顺序。",
+      "selection_reason": "用 radial 保留对应关系，不转成普通列表。"
+    },
+    {
+      "id": "03-matrix",
+      "kind": "matrix",
+      "title": "二维判断：把选择放对位置",
+      "subtitle": "两条轴同时参与判断。",
+      "data": {
+        "x": {
+          "title": "实施成本",
+          "low": "低",
+          "high": "高"
+        },
+        "y": {
+          "title": "预期影响",
+          "low": "低",
+          "high": "高"
+        },
+        "quadrants": {
+          "tl": {
+            "title": "优先尝试",
+            "lines": [
+              "低成本，高影响"
+            ]
+          },
+          "tr": {
+            "title": "重点规划",
+            "lines": [
+              "高成本，高影响"
+            ]
+          },
+          "bl": {
+            "title": "顺手改进",
+            "lines": [
+              "低成本，低影响"
+            ]
+          },
+          "br": {
+            "title": "谨慎投入",
+            "lines": [
+              "高成本，低影响"
+            ]
+          }
+        }
+      },
+      "source": "本 Skill 的原创示例文案，仅演示信息关系",
+      "intent": "两条轴同时参与判断。",
+      "selection_reason": "用 matrix 保留对应关系，不转成普通列表。"
+    },
+    {
+      "id": "04-decision",
+      "kind": "decision",
+      "title": "条件判断：下一步走哪条路",
+      "subtitle": "每条分支都写清触发条件。",
+      "data": {
+        "question": {
+          "title": "关键事实已核实？"
+        },
+        "branches": [
+          {
+            "label": "是",
+            "title": "进入写作",
+            "lines": [
+              "按已确认材料展开"
+            ]
+          },
+          {
+            "label": "否",
+            "title": "补充查证",
+            "lines": [
+              "找原始来源或标明未知"
+            ]
+          }
+        ]
+      },
+      "source": "本 Skill 的原创示例文案，仅演示信息关系",
+      "intent": "每条分支都写清触发条件。",
+      "selection_reason": "用 decision 保留对应关系，不转成普通列表。"
+    },
+    {
+      "id": "05-swimlane",
+      "kind": "swimlane",
+      "title": "协作流程：谁负责哪一步",
+      "subtitle": "步骤顺序向下，跨列箭头表示交接。",
+      "data": {
+        "lanes": [
+          "作者",
+          "AI 助手",
+          "编辑"
+        ],
+        "events": [
+          {
+            "lane": "作者",
+            "title": "提出问题",
+            "lines": [
+              "说明读者与目标"
+            ]
+          },
+          {
+            "lane": "AI 助手",
+            "title": "整理草稿",
+            "lines": [
+              "保留来源与疑点"
+            ]
+          },
+          {
+            "lane": "作者",
+            "title": "确认判断",
+            "lines": [
+              "补充经验与事实"
+            ]
+          },
+          {
+            "lane": "编辑",
+            "title": "检查成稿",
+            "lines": [
+              "校对表达和引用"
+            ]
+          }
+        ]
+      },
+      "source": "本 Skill 的原创示例文案，仅演示信息关系",
+      "intent": "步骤顺序向下，跨列箭头表示交接。",
+      "selection_reason": "用 swimlane 保留对应关系，不转成普通列表。"
+    },
+    {
+      "id": "06-layers",
+      "kind": "layers",
+      "title": "分层结构：各层承担什么",
+      "subtitle": "层的位置表示结构层级，不是执行顺序。",
+      "data": {
+        "layers": [
+          {
+            "title": "应用层",
+            "lines": [
+              "文章、课程与研究报告"
+            ]
+          },
+          {
+            "title": "方法层",
+            "lines": [
+              "提问、查证、组织与表达"
+            ]
+          },
+          {
+            "title": "基础层",
+            "lines": [
+              "资料、工具与已有经验"
+            ]
+          }
+        ]
+      },
+      "source": "本 Skill 的原创示例文案，仅演示信息关系",
+      "intent": "层的位置表示结构层级，不是执行顺序。",
+      "selection_reason": "用 layers 保留对应关系，不转成普通列表。"
+    },
+    {
+      "id": "07-funnel",
+      "kind": "funnel",
+      "title": "逐层筛选：留下合适的材料",
+      "data": {
+        "schematic": true,
+        "stages": [
+          {
+            "title": "收集材料",
+            "lines": [
+              "纳入可能有帮助的线索"
+            ]
+          },
+          {
+            "title": "筛选相关性",
+            "lines": [
+              "留下能回答当前问题的内容"
+            ]
+          },
+          {
+            "title": "核实依据",
+            "lines": [
+              "确认来源、条件与事实"
+            ]
+          },
+          {
+            "title": "进入正文",
+            "lines": [
+              "保留最能支撑主张的材料"
+            ]
+          }
+        ]
+      },
+      "source": "本 Skill 的原创示例文案，仅演示信息关系",
+      "intent": "逐层筛选：留下合适的材料",
+      "selection_reason": "用 funnel 保留对应关系，不转成普通列表。"
+    },
+    {
+      "id": "08-venn",
+      "kind": "venn",
+      "title": "集合关系：找到共同满足项",
+      "subtitle": "相关性与可核实性是两个独立条件。",
+      "data": {
+        "left": {
+          "title": "已经核实",
+          "only": [
+            "暂不相关",
+            "另行归档"
+          ]
+        },
+        "right": {
+          "title": "与主题相关",
+          "only": [
+            "尚未核实",
+            "继续查证"
+          ]
+        },
+        "intersection": {
+          "title": "优先采用",
+          "lines": [
+            "相关且已核实"
+          ]
+        }
+      },
+      "source": "本 Skill 的原创示例文案，仅演示信息关系",
+      "intent": "相关性与可核实性是两个独立条件。",
+      "selection_reason": "用 venn 保留对应关系，不转成普通列表。"
+    },
+    {
+      "id": "09-table",
+      "kind": "table",
+      "title": "对照比较：每一行比较同一件事",
+      "data": {
+        "columns": [
+          "直接罗列资料",
+          "围绕问题组织"
+        ],
+        "rows": [
+          {
+            "dimension": "开头",
+            "values": [
+              "从材料开始",
+              "从读者问题开始"
+            ]
+          },
+          {
+            "dimension": "段落作用",
+            "values": [
+              "描述手头有什么",
+              "回答一个明确问题"
+            ]
+          },
+          {
+            "dimension": "图解选择",
+            "values": [
+              "依次放进卡片",
+              "按照真实关系选结构"
+            ]
+          }
+        ]
+      },
+      "source": "本 Skill 的原创示例文案，仅演示信息关系",
+      "intent": "对照比较：每一行比较同一件事",
+      "selection_reason": "用 table 保留对应关系，不转成普通列表。"
+    }
+  ]
+}
